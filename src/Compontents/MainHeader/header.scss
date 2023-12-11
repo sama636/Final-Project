@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5% ;
+    background-color: white;
+    .appLogo{
+        height: 5rem;
+    }
+    nav{
+        display: flex;
+        gap: 2rem;
+        a{
+            font-size: 1rem;
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            letter-spacing: 1px;
+        }
+        a:hover{
+            color: #77c720 ;
+            border-bottom: 2px #77c720 solid;
+            
+        }
+        .activeLink{
+            color: #77c720 !important;
+            border-bottom: 2px #77c720 solid;
+            padding-bottom: 3px;
+        }
+    }
+    .icon{
+        height: 2rem;
+        width: 2rem;
+        
+    }
+    .loog{
+        display: flex;
+        gap: 20px;
+    }
+}
