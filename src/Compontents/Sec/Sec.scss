@@ -3,15 +3,21 @@
     height: 100vh;
 }
 .card{
-    background-color: #77c720;
+    background-image: url(../../assets/home.jpg);
+    background-size: cover;
+    height: 100vh;
     color: #fff;
-    padding: 20px;
-    margin: auto;
-    bottom: 30rem;
-    right: 25rem;
-    height: 300px;
+    font-weight: bold;
     border: 0;
     .btn{
         width: 10rem;
     }
+}
+.bg{
+    background-color: #70c720;
+    height: 310px;
+    width: 350px;
+    border-radius: 4px;
+    padding: 25px;
+    margin: 70px;
 }

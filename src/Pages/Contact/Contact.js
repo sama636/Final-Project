@@ -6,7 +6,8 @@ import "./Contact.scss";
 export default function Contact() {
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm("gmail", "YOUR_EMAIL", e.target, "YOUR_USER_ID").then(
+    emailjs.sendForm("service_wfcdeb2","template_rwktro5", e.target)
+    .then(
       (result) => {
         console.log(result.text);
       },

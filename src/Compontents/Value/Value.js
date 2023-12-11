@@ -14,7 +14,7 @@ export default function Value() {
         <div className="Value__Our">
           <h1 className="p-5">Our Values</h1>
           <div className="row d-flex justify-content-center">
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={room} />
               <h4>Quality</h4>
               <p>
@@ -22,7 +22,7 @@ export default function Value() {
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
             </div>
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={slide} />
               <h4>Teamwork</h4>
               <p>
@@ -30,7 +30,7 @@ export default function Value() {
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
             </div>
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={splide} />
               <h4>Respect</h4>
               <p>
@@ -40,7 +40,7 @@ export default function Value() {
             </div>
           </div>
           <div className="row d-flex justify-content-center">
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={apt} />
               <h4>Integrity</h4>
               <p>
@@ -48,7 +48,7 @@ export default function Value() {
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
             </div>
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={newyourk} />
               <h4>Responsibility</h4>
               <p>
@@ -56,7 +56,7 @@ export default function Value() {
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
             </div>
-            <div className="col-3 p-3">
+            <div className="col-3 p-3 ser">
               <img className="room" src={noor} />
               <h4>Innovative</h4>
               <p>
