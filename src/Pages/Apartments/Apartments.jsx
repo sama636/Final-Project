@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Apartments/Apartments.scss";
 import axios from "axios";
 import ProdCard from "../../Compontents/ProdCard/ProdCard";
-import Apartment from '../../assets/Apartment.jpg'
+import Apartment from '../../assets/Apartment.jpg';
 
 export default function Apsrtments() {
   const [prod, setProd] = useState([]);

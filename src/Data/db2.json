@@ -1,0 +1,45 @@
+{
+    "brokers": [
+        {
+            "id": 1,
+            "Name": "Mohamed Ali",
+            "Governorate": "Cairo",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+            "Number": "0122278684",
+            "thumbnail":[
+                "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "Name": "Ahmed Omar",
+            "Governorate": "Qena",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+            "Number": "0111278684",
+            "images":[
+                "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "Name": "Nour Ahmed",
+            "Governorate": "Giza",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+            "Number": "0100245461",
+            "images":[
+                "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "Name": "Omar Yassin",
+            "Governorate": "Cairo",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+            "Number": "01187515205",
+            "images":[
+                "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg"
+            ]
+        }
+    ],
+    "users": []
+}

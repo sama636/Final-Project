@@ -4,7 +4,7 @@ import "./Footer.scss";
 export default function Footer() {
   return (
     <>
-      <div className="row footer p-4">
+      <div className="row footer ">
         <div className="col-3">
         <h3 className="color pb-5">Brokery Finder</h3>
         <h6>
@@ -34,7 +34,7 @@ export default function Footer() {
             <p>Contact</p>
             <p>Blog</p>
         </div>
-        <div className="row p-5">
+        <div className="row">
         <h4 className="paara">© Brokery Finder - All rights reserved</h4>
         </div>
       </div>

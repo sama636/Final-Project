@@ -5,6 +5,7 @@ import { $Auth_Data, $Modal_Index } from '../../store'
 import { ErrorMessage, Field, Form, Formik } from 'formik'
 import { Link } from 'react-router-dom'
 import loginSchema from '../../schemas/loginSchema'
+import Dashboard from '../../Pages/Dashboard/Dashboard'
 import axios from 'axios'
 import Sign from '../Sign/Sign'
 
@@ -56,11 +57,13 @@ export default function Model() {
                 <span className="text-danger">
                 <ErrorMessage name='password'/>
             </span>
-                <div>
+                {/* <div>
                   Don’t Have and account? <Link >Create new account </Link>
-                </div>
+                </div> */}
                 <div className='d-flex justify-content-end'>
-                <button type='submit'>Login</button>
+                <button type='submit' onClick={()=>{
+                  <></>
+                }}>Login</button>
                 </div>
               </Form>
             </Formik>

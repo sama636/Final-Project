@@ -16,8 +16,8 @@ export default function Services() {
       </div>
       <div className="serv">
         <div className="One">
-          <div className="row p-3">
-            <div className="col-3 ser">
+          <div className="row p-3 space">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <FaPeopleGroup />
               </div>
@@ -27,7 +27,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <PiGoogleChromeLogo />
               </div>
@@ -37,7 +37,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <VscGraph />
               </div>
@@ -48,8 +48,8 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="row p-3">
-            <div className="col-3 ser">
+          <div className="row p-3 space">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <PiHandshakeBold />
               </div>
@@ -59,7 +59,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <FaRadio />
               </div>
@@ -69,7 +69,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser">
+            <div className="col-3 ser py-4">
               <div className="icon">
                 <MdBalance />
               </div>
