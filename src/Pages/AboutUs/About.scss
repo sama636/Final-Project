@@ -1,6 +1,20 @@
 .about{
     width: 100vw;
     height: 70vh;
+    opacity: 0.6;
+}
+.aboutUs{
+    font-weight: bolder;
+    font-size: 6rem;
+    bottom: 20rem;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+}
+.paraAbout{
+    font-size: 3rem;
+    bottom: 20rem;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
 }
 .about__us{
     font-weight: bold !important;

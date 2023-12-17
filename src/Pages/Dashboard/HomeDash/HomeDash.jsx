@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeDash.scss";
-import { FaCartPlus } from "react-icons/fa6";
 
 export default function HomeDash() {
   return (
@@ -8,7 +7,7 @@ export default function HomeDash() {
       <div className="col-9">
         <form className="Form">
           <h2>Add new product</h2>
-          <div className=" align-items-center col-6 gap-5">
+          <div className=" align-items-center col-8 gap-5">
             <div className="w-100">
               <label for="exampleInputEmail1" class="form-label pt-2 d-block">
                 Product Name :
@@ -39,7 +38,7 @@ export default function HomeDash() {
               </div>
             </div>
           </div>
-          <div className=" align-items-center col-6 gap-5">
+          <div className=" align-items-center col-8 gap-5">
             <div className="w-100">
               <label for="exampleInputEmail1" class="form-label pt-2 d-block">
                 Product category :
@@ -67,7 +66,7 @@ export default function HomeDash() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className=" col-8">
             <div>
               <div>
                 <label for="exampleInputEmail1" class="form-label pt-2 d-block">
@@ -122,6 +121,7 @@ export default function HomeDash() {
             </tbody>
           </table>
         </div>
+        
       </div>
     </>
   );

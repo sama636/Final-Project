@@ -92,11 +92,8 @@ export default function Modal() {
             <span className="text-danger">
               <ErrorMessage name="confirmpassword " />
             </span>
-            <div>
-              Already have an account? <Link to="/Modal">Login now </Link>
-            </div>
             <div className="d-flex justify-content-end">
-              <button type="submit">Register</button>
+              <button type="button" className="btn btn-info">SignUp</button>
             </div>
           </Form>
         </Formik>

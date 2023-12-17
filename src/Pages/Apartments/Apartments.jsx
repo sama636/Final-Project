@@ -12,6 +12,7 @@ export default function Apsrtments() {
   return (
     <>
     <img className="apar" src={Apartment}/>
+    <p className="apart">Welcome to Apartment</p>
     <div className="container my-5">
       <div className="row">
         {prod.map((product,index) => {

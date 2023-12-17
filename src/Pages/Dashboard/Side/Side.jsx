@@ -1,12 +1,10 @@
 import React from "react";
 import "./Side.scss";
-import { BsList } from "react-icons/bs";
 
 export default function Side() {
   return (
     <div className="bg-white p-2 col-3">
       <div className="my-2">
-        {/* <BsList className="my-2 m-3 icon_dash" /> */}
         <span className="brand-name fs-4">Dashboard</span>
       </div>
       <hr className="text-dark" />
