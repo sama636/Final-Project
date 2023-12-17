@@ -16,6 +16,9 @@ export default function Modal() {
       }
     })
   }
+  function show() {
+    alert("Done");
+  }
   const [modalIndex, setModalIndex] = useRecoilState($Mod_Index);
   return (
     <div
@@ -93,7 +96,8 @@ export default function Modal() {
               <ErrorMessage name="confirmpassword " />
             </span>
             <div className="d-flex justify-content-end">
-              <button type="button" className="btn btn-info">SignUp</button>
+              
+              <button type="button" onclick="show()">SignUp</button>
             </div>
           </Form>
         </Formik>
