@@ -3,6 +3,7 @@ import "./Side.scss";
 
 export default function Side() {
   return (
+    <>
     <div className="bg-white p-2 col-3">
       <div className="my-2">
         <span className="brand-name fs-4">Dashboard</span>
@@ -20,5 +21,7 @@ export default function Side() {
         </a>
       </div>
     </div>
+    
+    </>
   );
 }
