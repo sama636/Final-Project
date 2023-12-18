@@ -16,10 +16,9 @@ export default function Modal() {
       }
     })
   }
-  function show() {
-    alert("Done");
-  }
+  
   const [modalIndex, setModalIndex] = useRecoilState($Mod_Index);
+  
   return (
     <div
       className="col-12 "
@@ -105,3 +104,4 @@ export default function Modal() {
     </div>
   );
 }
+

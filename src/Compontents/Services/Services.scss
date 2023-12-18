@@ -22,11 +22,14 @@
 }
 .serv{
     display: flex;
+    width: 85%;
+    margin: auto;
     justify-content: center;
     gap: 5rem;
 }
 .ser{
     border: 1px solid rgb(247, 246, 246);
+    
 }
     .ser:hover{
         border-radius: 3px;
