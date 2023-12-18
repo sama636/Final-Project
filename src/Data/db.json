@@ -582,7 +582,7 @@
         "Name": "Mohamed Ali",
         "Governorate": "Cairo",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Number": "01222786841",
+        "Mobile": "01222786841",
         "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-3.jpg",
         "images":[
             
@@ -598,7 +598,7 @@
         "Name": "Ahmed Omar",
         "Governorate": "Qena",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Number": "01112786814",
+        "Mobile": "01112786814",
         "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg",
         "images":[
           "https://i.dummyjson.com/data/products/28/1.jpg",
@@ -613,7 +613,7 @@
         "Name": "Nour Ahmed",
         "Governorate": "Giza",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Number": "01002454261",
+        "Mobile": "01002454261",
         "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg",
         "images":[
           "https://i.dummyjson.com/data/products/28/1.jpg",
@@ -628,7 +628,7 @@
         "Name": "Omar Yassin",
         "Governorate": "Cairo",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Number": "01187515205",
+        "Mobile": "01187515205",
         "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg",
         "images":[
           "https://i.dummyjson.com/data/products/28/1.jpg",

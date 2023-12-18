@@ -11,10 +11,10 @@ export default function Agents() {
   return (
     <>
       <div className="row">
-        {broker.map((Person, index) => {
+        {broker.map((brokers, index) => {
           return (
             <div key={index}>
-              <Brokery Person={Person} />
+              <Brokery brokers={brokers} />
             </div>
           );
         })}
