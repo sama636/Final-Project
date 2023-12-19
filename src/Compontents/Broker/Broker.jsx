@@ -8,7 +8,7 @@ export default function Broker() {
   return (
     <>
     <div className='back'>
-    <div className='row title '>
+    <div className=' title'>
         <h1 className='top-title d-flex justify-content-center'>Meet Our Agents</h1>
         <p className='parag d-flex justify-content-center'>CHOOSE FROM DIFFERENT LISTING TEMPLATES AND LAY THEM OUTAS LISTS OR GRIDS, FULL-WIDTH OR BOXED ​</p>
     </div>

@@ -14,11 +14,10 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    // align-items: center;
-    gap: 10px;
+    // gap: 10px;
+    justify-content: space-between;
 }
 .fea{
     width: 300px;
     height: 75vh;
-    // border-radius: 50%;
 }
