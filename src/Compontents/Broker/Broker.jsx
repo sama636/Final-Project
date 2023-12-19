@@ -8,12 +8,12 @@ export default function Broker() {
   return (
     <>
     <div className='back'>
-    <div className='title'>
-        <h1 className='top-title'>Meet Our Agents</h1>
-        <p className='parag'>CHOOSE FROM DIFFERENT LISTING TEMPLATES AND LAY THEM OUTAS LISTS OR GRIDS, FULL-WIDTH OR BOXED ​</p>
+    <div className='title '>
+        <h1 className='top-title d-flex justify-content-center'>Meet Our Agents</h1>
+        <p className='parag d-flex justify-content-center'>CHOOSE FROM DIFFERENT LISTING TEMPLATES AND LAY THEM OUTAS LISTS OR GRIDS, FULL-WIDTH OR BOXED ​</p>
     </div>
-    <div className='row cards '>
-        <div className='col-3 card1 '>
+    <div className='row cards d-flex align-items-center g-2'>
+        <div className='col-3  card1 '>
           <img src={agent} className='brokers'/>
             <p className='profilee'>Mohamed Ali</p>
             <p className='brok'>Broker in Cairo Governorate</p>

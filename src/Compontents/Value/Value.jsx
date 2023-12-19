@@ -13,7 +13,7 @@ export default function Value() {
       <div className="value">
         <div className="Value__Our">
           <h1 className="p-5">Our Values</h1>
-          <div className="row d-flex justify-content-center">
+          <div className="row Value__Sec d-flex justify-content-center ">
             <div className="col-3 p-3 ser">
               <img className="room" src={room} />
               <h4>Quality</h4>
@@ -39,7 +39,7 @@ export default function Value() {
               </p>
             </div>
           </div>
-          <div className="row d-flex justify-content-center">
+          <div className="row Value__Sec d-flex justify-content-center">
             <div className="col-3 p-3 ser">
               <img className="room" src={apt} />
               <h4>Integrity</h4>

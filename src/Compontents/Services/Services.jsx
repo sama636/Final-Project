@@ -14,10 +14,10 @@ export default function Services() {
       <div className="Services">
         <h1>Our Services</h1>
       </div>
-      <div className="serv">
+      <div className="serv d-flex justify-content-center">
         <div className="One">
           <div className="row p-3 space">
-            <div className="col-3 ser py-4">
+            <div className=" col-md-3 ser py-4">
               <div className="icon">
                 <FaPeopleGroup />
               </div>
@@ -27,7 +27,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser py-4">
+            <div className="col-md-3 ser py-4">
               <div className="icon">
                 <PiGoogleChromeLogo />
               </div>
@@ -37,7 +37,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser py-4">
+            <div className="col-md-3 ser py-4">
               <div className="icon">
                 <VscGraph />
               </div>
@@ -49,7 +49,7 @@ export default function Services() {
             </div>
           </div>
           <div className="row p-3 space">
-            <div className="col-3 ser py-4">
+            <div className="col-md-3 ser py-4">
               <div className="icon">
                 <PiHandshakeBold />
               </div>
@@ -59,7 +59,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser py-4">
+            <div className="col-md-3 ser py-4">
               <div className="icon">
                 <FaRadio />
               </div>
@@ -69,7 +69,7 @@ export default function Services() {
                 diam nonummy
               </p>
             </div>
-            <div className="col-3 ser py-4">
+            <div className="col-md-3  ser py-4">
               <div className="icon">
                 <MdBalance />
               </div>
