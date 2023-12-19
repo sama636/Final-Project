@@ -11,7 +11,7 @@ import { MdBalance } from "react-icons/md";
 export default function Services() {
   return (
     <>
-      <div className="Services">
+      <div className="row Services">
         <h1>Our Services</h1>
       </div>
       <div className="serv d-flex justify-content-center">

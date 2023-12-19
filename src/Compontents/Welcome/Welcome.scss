@@ -1,19 +1,18 @@
-.image{
-    width: 100vw;
-    opacity: 0.4;
-    height: 580px;
+
+.cardd{
+    background-image: url(../../assets/welcome.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    border: 0;
 }
-.HOme{
-    font-weight: 400;
-    font-size: 4rem;
-    bottom: 25rem;
+.bgg{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 310px;
+    padding: 40px;
+    top: 11rem;
     position: relative;
-    color: rgba(0, 0, 0, 0.7);
-}
-.Home{
-    font-weight: 400;
-    font-size: 2rem;
-    bottom: 25rem;
-    position: relative;
-    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 4rem !important;
 }

@@ -5,11 +5,14 @@ export default function Welcome() {
   return (
     <>
     <div >
-      <img src={welcome} className='image'/>
-      
+    <div className='cardd col-3 w-100 d-flex justify-content-center'>
+        <div className='bgg'>
+        <p>Discover Your Place To Live</p>
+        <h1 className='p-2'>GET STARTED IN FEW CLICKS​</h1>
+        </div>
+      </div>
     </div>
-    <p className='HOme'>Discover Your Place To Live</p>
-    <p className='Home'>GET STARTED IN FEW CLICKS</p>
+   
     </>
   )
 }

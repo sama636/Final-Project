@@ -1,26 +1,17 @@
-.about{
-    width: 100vw;
-    height: 70vh;
-    opacity: 0.6;
-}
-.aboutUs{
-    font-weight: bolder;
-    font-size: 6rem;
-    bottom: 20rem;
-    position: relative;
-    color: rgba(0, 0, 0, 0.7);
-}
+
 .paraAbout{
-    font-size: 3rem;
-    bottom: 20rem;
-    position: relative;
-    color: rgba(0, 0, 0, 0.7);
+    background-image: url(../../assets/abou.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    border: 0;
 }
-.about__us{
-    font-weight: bold !important;
-    font-size: 15rem !important;
-    position: absolute;
-    bottom: 8rem ;
-    padding: 20px;
-    color: #cecaca;
+.about{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 650px;
+    padding: 70px;
+    position: relative;
+    font-weight: 500;
+    font-size: 4rem !important;
 }
