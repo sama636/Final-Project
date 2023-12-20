@@ -6,8 +6,7 @@ import "./Contact.scss";
 export default function Contact() {
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm("service_wfcdeb2","template_rwktro5", e.target)
-    .then(
+    emailjs.sendForm("service_wfcdeb2", "template_rwktro5", e.target).then(
       (result) => {
         console.log(result.text);
       },
@@ -24,13 +23,15 @@ export default function Contact() {
           We offer unique properties suitable for any kind of comfort
         </p>
         <div className="container pt-5">
-          <div className="row">
-            <div className="col-6">
-              <img className="cont" src={cont} />
+          <div className="row flex-column flex-md-row align-items-stretch">
+            <div className="col-10 col-md-6">
+              <div className="h-100">
+                <img className="cont h-100" src={cont} />
+              </div>
             </div>
-            <div className="col-6 form" onSubmit={sendEmail}>
-              <div className="row">
-                <div className="col-6">
+            <div className="form col-10 col-md-6" onSubmit={sendEmail}>
+              <div className="row h-100">
+                <div>
                   <label>First Name</label>
                   <input
                     type="text"
@@ -39,7 +40,7 @@ export default function Contact() {
                     aria-label="First name"
                   />
                 </div>
-                <div class="col-6">
+                <div>
                   <label>Last Name</label>
                   <input
                     type="text"

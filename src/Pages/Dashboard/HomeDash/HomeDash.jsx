@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from 'react'
 import "./HomeDash.scss";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from '../../../firebase';
+
 
 export default function HomeDash() {
+  const[name , setName] = useState();
+  const[category , setCategory] = useState();
+  const[price , setPrice] = useState();
+  const[url , setUrl] = useState();
+const addNewProduct = async(obj) =>{
+  const docRef = await addDoc(collection(db, "products"), obj);
+  console.log("Document written with ID: ", docRef.id);
+}
   return (
     <>
       <div className="col-9">
@@ -18,6 +29,10 @@ export default function HomeDash() {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Product Name"
+                onKeyUp={(e)=>{
+                  setName(e.target.value);
+                }}
+                
               />
             </div>
             <div className="w-100">
@@ -34,6 +49,9 @@ export default function HomeDash() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Product Price"
+                  onKeyUp={(e)=>{
+                    setPrice(e.target.value);
+                  }}
                 />
               </div>
             </div>
@@ -49,6 +67,9 @@ export default function HomeDash() {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Product category"
+                onKeyUp={(e)=>{
+                  setCategory(e.target.value);
+                }}
               />
             </div>
             <div className="w-100">
@@ -62,6 +83,7 @@ export default function HomeDash() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Product description "
+                  
                 />
               </div>
             </div>
@@ -78,12 +100,24 @@ export default function HomeDash() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Product thumbnail"
+                  onKeyUp={(e)=>{
+                    setUrl(e.target.value);
+                  }}
                 />
               </div>
             </div>
           </div>
           <div className="row p-3">
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary" onclick={(e)=>{
+              let obj = {
+                name : name,
+                price : price,
+                url : url,
+                category: category,
+              }
+              e.preventDefault();
+              addNewProduct(obj);
+            }}>
               Submit
             </button>
           </div>

@@ -10,8 +10,6 @@ export default function Apsrtments() {
   }, []);
   return (
     <>
-      {/* <img className="apar" src={Apartment}/>
-    <p className="apart">Welcome to Apartment</p> */}
       <div className="apar col-3 w-100 d-flex justify-content-center">
         <div className="apart">
           <p>Apartments</p>
@@ -21,7 +19,7 @@ export default function Apsrtments() {
         <div className="row">
           {prod.map((product, index) => {
             return (
-              <div key={index} className="Apart col-4 my-3">
+              <div key={index} className="Apart col-12 col-sm-6 col-md-4 my-3">
                 <ProdCard product={product} />
               </div>
             );

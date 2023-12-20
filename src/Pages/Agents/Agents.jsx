@@ -10,10 +10,10 @@ export default function Agents() {
   }, []);
   return (
     <>
-      <div className="row">
+      <div className="row flex-column flex-md-row gap-4 m-auto">
         {broker.map((brokers, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="brokerCard m-auto">
               <Brokery brokers={brokers} />
             </div>
           );

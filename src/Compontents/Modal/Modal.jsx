@@ -5,7 +5,6 @@ import { $Auth_Data, $Modal_Index } from '../../store'
 import { ErrorMessage, Field, Form, Formik } from 'formik'
 import { Link } from 'react-router-dom'
 import loginSchema from '../../schemas/loginSchema'
-import Dashboard from '../../Pages/Dashboard/Dashboard'
 import axios from 'axios'
 import Sign from '../Sign/Sign'
 

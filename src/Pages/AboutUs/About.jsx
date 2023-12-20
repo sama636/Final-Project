@@ -7,7 +7,7 @@ import Hello from "../../Compontents/Hello/Hello";
 export default function About() {
   return (
     <div>
-      <div className='paraAbout col-3 w-100 d-flex justify-content-center'>
+      <div className='paraAbout '>
         <div className='about'>
         <p>About Us</p>
         <h1 className='p-2'>Welcome to Brokery Finder​</h1>

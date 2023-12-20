@@ -12,6 +12,7 @@ import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import { $Current_Width, $Side_Menu_Index } from "./store";
 import Dashboard from "./Pages/Dashboard/Dashboard";
+import { useEffect, useState } from "react";
 // import { useEffect } from "react";
 
 function App() {
@@ -20,7 +21,6 @@ function App() {
   window.addEventListener("resize", () => {
     setCurrentWidth(window.innerWidth);
   });
-
   return (
     <div
       className="App"
@@ -29,7 +29,8 @@ function App() {
       }}
     >
       <BrowserRouter>
-        <Header />
+      <Header />
+        
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
