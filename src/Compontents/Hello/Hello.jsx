@@ -16,7 +16,7 @@ export default function Hello() {
             </h4>
           </div>
           <div className="col-12 col-md-6 p-5">
-            <div className="my-5">
+            <div >
               <h4>
                 <span>
                   <FaCheck />
@@ -29,7 +29,7 @@ export default function Hello() {
                 with you to find the perfect home for you and your family.
               </p>
             </div>
-            <div className="my-5">
+            <div>
               <h4>
                 <span>
                   <FaCheck />
@@ -42,7 +42,7 @@ export default function Hello() {
                 you with honest and expert advice about the market.
               </p>
             </div>
-            <div className="my-5">
+            <div>
               <h4>
                 <span>
                   <FaCheck />

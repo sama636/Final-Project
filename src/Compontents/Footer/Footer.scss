@@ -4,16 +4,17 @@
 .footer{
     background-color: black;
     color: #fff;
-    padding: 5rem !important;
+    padding: 3rem !important;
     margin: auto;
     left: 5rem;
     p:hover{
         color: #77c720 ;
-        transition: 0.3s;
+        
         // text-decoration: underline;
     }
     p{
         padding: 5px;
+        transition: 0.3s;
     }
 }
 .paara{

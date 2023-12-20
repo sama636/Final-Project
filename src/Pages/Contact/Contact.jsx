@@ -31,8 +31,8 @@ export default function Contact() {
             </div>
             <div className="form col-10 col-md-6" onSubmit={sendEmail}>
               <div className="row h-100">
-                <div>
-                  <label>First Name</label>
+                <div  className="text-start">
+                  <label className="p-1">First Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -40,8 +40,8 @@ export default function Contact() {
                     aria-label="First name"
                   />
                 </div>
-                <div>
-                  <label>Last Name</label>
+                <div className="text-start ">
+                  <label className="p-1">Last Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -49,11 +49,11 @@ export default function Contact() {
                     aria-label="Last name"
                   />
                 </div>
-                <div>
+                <div  className="text-start">
                   <div className="mb-3">
                     <label
                       for="exampleFormControlInput1"
-                      className="form-label"
+                      className="form-label "
                     >
                       Email
                     </label>
@@ -64,10 +64,10 @@ export default function Contact() {
                       placeholder="Email "
                     />
                   </div>
-                  <div className="mb-3">
+                  <div className="mb-3 text-start">
                     <label
                       for="exampleFormControlTextarea1"
-                      className="form-label"
+                      className="form-label "
                     >
                       Message
                     </label>

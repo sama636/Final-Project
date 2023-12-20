@@ -24,7 +24,7 @@ const addNewProduct = async(obj) =>{
                 Product Name :
               </label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
@@ -44,7 +44,7 @@ const addNewProduct = async(obj) =>{
                   Product Price :
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -62,7 +62,7 @@ const addNewProduct = async(obj) =>{
                 Product category :
               </label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
@@ -78,7 +78,7 @@ const addNewProduct = async(obj) =>{
                   Product description :
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -95,7 +95,7 @@ const addNewProduct = async(obj) =>{
                   Product thumbnail :
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -108,7 +108,7 @@ const addNewProduct = async(obj) =>{
             </div>
           </div>
           <div className="row p-3">
-            <button type="submit" class="btn btn-primary" onclick={(e)=>{
+            <button type="submit" class="btn btn-primary" onClick={(e)=>{
               let obj = {
                 name : name,
                 price : price,

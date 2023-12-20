@@ -7,7 +7,6 @@
 }
 .fea:hover{
     opacity: 0.5;
-    transition: 0.4s;
 }
 .CARDS{
     width: 85%;
@@ -19,5 +18,6 @@
 }
 .fea{
     width: 300px;
-    height: 75vh;
+    height: 60vh;
+    transition: 0.4s;
 }
