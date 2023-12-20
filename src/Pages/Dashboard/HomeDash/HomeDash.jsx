@@ -17,8 +17,8 @@ const addNewProduct = async(obj) =>{
     <>
       <div className="col-9">
         <form className="Form">
-          <h2>Add new product</h2>
-          <div className=" align-items-center col-8 gap-5">
+          <h2 className='text-start'>Add new product</h2>
+          <div className=" align-items-center col-6 gap-5">
             <div className="w-100">
               <label for="exampleInputEmail1" class="form-label pt-2 d-block">
                 Product Name :
@@ -56,7 +56,7 @@ const addNewProduct = async(obj) =>{
               </div>
             </div>
           </div>
-          <div className=" align-items-center col-8 gap-5">
+          <div className=" align-items-center col-6 gap-5">
             <div className="w-100">
               <label for="exampleInputEmail1" class="form-label pt-2 d-block">
                 Product category :
@@ -88,7 +88,7 @@ const addNewProduct = async(obj) =>{
               </div>
             </div>
           </div>
-          <div className=" col-8">
+          <div className=" col-6">
             <div>
               <div>
                 <label for="exampleInputEmail1" class="form-label pt-2 d-block">
@@ -107,7 +107,7 @@ const addNewProduct = async(obj) =>{
               </div>
             </div>
           </div>
-          <div className="row p-3">
+          <div className="row col-6 mb-1 p-2">
             <button type="submit" class="btn btn-primary" onClick={(e)=>{
               let obj = {
                 name : name,
@@ -123,7 +123,7 @@ const addNewProduct = async(obj) =>{
           </div>
         </form>
         <div className="productsTable mb-5">
-          <h2>Products Table</h2>
+          <h2 className='text-start p-2'>Products Table</h2>
           <table className="table table-bordered table-striped table-hover rounded-2">
             <thead>
               <tr>
