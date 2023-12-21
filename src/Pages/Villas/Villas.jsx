@@ -5,6 +5,7 @@ import { db } from "../../firebase/index"
 
 export default function Villas() {
   const [products, setProducts] = useState([]);
+  console.log(products);
   const getAllProducts = async()=>{
     let pros = [];
     const querySnapshot = await getDocs(collection(db, "products"));

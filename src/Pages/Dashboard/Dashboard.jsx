@@ -7,7 +7,6 @@ export default function Dashboard() {
   return (
     <>
       <div className="row col-12">
-          <Side />
           <HomeDash />
       </div>
     </>

@@ -9,7 +9,7 @@ export default function Featured() {
     <>
     <div className='Featured p-5'>
         <div className='row Title__Featured'>
-            <h4 className='p-5 fs-1'>Featured homes</h4>
+            <h4 className='p-5 fs-1'>Featured Homes</h4>
         </div>
         <div className='row CARDS'>
             <div className='col-3 card2'>

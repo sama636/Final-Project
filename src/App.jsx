@@ -7,6 +7,7 @@ import Agents from "./Pages/Agents/Agents";
 import Contact from "./Pages/Contact/Contact";
 import Header from "./Compontents/MainHeader/Header";
 import Footer from "./Compontents/Footer/Footer";
+import { ToastContainer, toast } from 'react-toastify';
 
 import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
 import { useRecoilState } from "recoil";
@@ -46,6 +47,7 @@ function App() {
         <Outlet />
       </BrowserRouter>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

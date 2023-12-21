@@ -553,91 +553,90 @@
       ]
     }
   ],
-  "categories": [
-    
-  ],
+  "categories": [],
   "users": [
     {
       "email": "snasser636@gmail.com",
       "name": "Sama",
+      "role": "Admin",
       "password": "123456",
       "id": 1
     },
     {
       "email": "noor222@gmail.com",
       "name": "noor",
+      "role": "Member",
       "password": "147852",
       "id": 2
     },
     {
       "email": "dwdw@swdw.dw",
       "name": "Sama",
+      "role": "Member",
       "password": "dwdw@swdw.dw",
       "id": 3
     }
-    
   ],
   "brokers": [
     {
-        "id": 1,
-        "Name": "Mohamed Ali",
-        "Governorate": "Cairo",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Mobile": "01222786841",
-        "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-3.jpg",
-        "images":[
-            
-            "https://i.dummyjson.com/data/products/28/1.jpg",
+      "id": 1,
+      "Name": "Mohamed Ali",
+      "Governorate": "Cairo",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+      "Mobile": "01222786841",
+      "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-3.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/28/1.jpg",
         "https://i.dummyjson.com/data/products/28/2.jpg",
         "https://i.dummyjson.com/data/products/28/3.png",
         "https://i.dummyjson.com/data/products/28/4.jpg",
         "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-3.jpg"
-        ]
+      ]
     },
     {
-        "id": 2,
-        "Name": "Ahmed Omar",
-        "Governorate": "Qena",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Mobile": "01112786814",
-        "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg",
-        "images":[
-          "https://i.dummyjson.com/data/products/28/1.jpg",
-          "https://i.dummyjson.com/data/products/28/2.jpg",
-          "https://i.dummyjson.com/data/products/28/3.png",
-          "https://i.dummyjson.com/data/products/28/4.jpg",
-          "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg"
-        ]
+      "id": 2,
+      "Name": "Ahmed Omar",
+      "Governorate": "Qena",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+      "Mobile": "01112786814",
+      "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/28/1.jpg",
+        "https://i.dummyjson.com/data/products/28/2.jpg",
+        "https://i.dummyjson.com/data/products/28/3.png",
+        "https://i.dummyjson.com/data/products/28/4.jpg",
+        "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-4.jpg"
+      ]
     },
     {
-        "id": 3,
-        "Name": "Nour Ahmed",
-        "Governorate": "Giza",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Mobile": "01002454261",
-        "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg",
-        "images":[
-          "https://i.dummyjson.com/data/products/28/1.jpg",
-          "https://i.dummyjson.com/data/products/28/2.jpg",
-          "https://i.dummyjson.com/data/products/28/3.png",
-          "https://i.dummyjson.com/data/products/28/4.jpg",
-          "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg"
-        ]
+      "id": 3,
+      "Name": "Nour Ahmed",
+      "Governorate": "Giza",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+      "Mobile": "01002454261",
+      "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/28/1.jpg",
+        "https://i.dummyjson.com/data/products/28/2.jpg",
+        "https://i.dummyjson.com/data/products/28/3.png",
+        "https://i.dummyjson.com/data/products/28/4.jpg",
+        "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-2-768x768.jpg"
+      ]
     },
     {
-        "id": 4,
-        "Name": "Aya Yassin",
-        "Governorate": "Cairo",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
-        "Mobile": "01187515205",
-        "thumbnail":"https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg",
-        "images":[
-          "https://i.dummyjson.com/data/products/28/1.jpg",
-          "https://i.dummyjson.com/data/products/28/2.jpg",
-          "https://i.dummyjson.com/data/products/28/3.png",
-          "https://i.dummyjson.com/data/products/28/4.jpg",
-          "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg"
-        ]
+      "id": 4,
+      "Name": "Aya Yassin",
+      "Governorate": "Cairo",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet ullamcorper nisl, sed venenatis...",
+      "Mobile": "01187515205",
+      "thumbnail": "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/28/1.jpg",
+        "https://i.dummyjson.com/data/products/28/2.jpg",
+        "https://i.dummyjson.com/data/products/28/3.png",
+        "https://i.dummyjson.com/data/products/28/4.jpg",
+        "https://demo05.houzez.co/wp-content/uploads/2016/02/agent-1-768x768.jpg"
+      ]
     }
-]
+  ]
 }

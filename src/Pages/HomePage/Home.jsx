@@ -8,7 +8,7 @@ import Sec from '../../Compontents/Sec/Sec';
 
 export default function Home() {
   return (
-    <div>
+    <div className='w-100'>
       <Welcome/>
       <Broker/>
       <Sec/>

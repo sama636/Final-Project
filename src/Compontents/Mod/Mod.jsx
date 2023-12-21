@@ -37,6 +37,7 @@ export default function Modal() {
           initialValues={{
             email: "",
             name: "",
+            role  : "Member",
             confirmpassword: "",
             password: "",
           }}
