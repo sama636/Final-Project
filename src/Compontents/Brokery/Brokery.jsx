@@ -12,9 +12,9 @@ export default function Brokery(brokers) {
           />
         </div>
         <div className="card-body">
-          <h2 className="card-title p-2">{brokers.brokers.Name}</h2>
+          <h2 className="card-titlee p-2">{brokers.brokers.Name}</h2>
           <h5 className="card-title p-2">{brokers.brokers.Governorate}</h5>
-          <a className="card-titlee p-2">{brokers.brokers.Mobile}</a>
+          <a className="card-titlea p-2">{brokers.brokers.Mobile}</a>
           <p className="card-title p-2">{brokers.brokers.title}</p>
         </div>
       </div>

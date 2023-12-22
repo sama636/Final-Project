@@ -2,9 +2,16 @@ import React, { useEffect, useState } from 'react'
 import "./Villas.scss"
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/index"
+import ProdVilla from '../../Compontents/ProdVilla/ProdVilla';
+import axios from "axios";
+
 
 export default function Villas() {
   const [products, setProducts] = useState([]);
+  const [prodVilla, setProdVilla] = useState([]);
+  useEffect(() => {
+    axios("http://localhost:3004/productVillas").then((data) => setProdVilla(data.data));
+  }, []);
   console.log(products);
   const getAllProducts = async()=>{
     let pros = [];
@@ -20,7 +27,7 @@ setProducts(pros);
     getAllProducts();
   }, []);
   return (
-    <div>
+    <>
       {
         products.map((pro)=>{
           return(
@@ -32,6 +39,22 @@ setProducts(pros);
           )
         })
       }
-    </div>
+        <div className="vill col-3 w-100 d-flex justify-content-center">
+        <div className="Villa">
+          <p>Villas</p>
+        </div>
+      </div>
+      <div className="container my-5">
+        <div className="row">
+          {prodVilla.map((Villa, index) => {
+            return (
+              <div key={index} className="villal col-12 col-sm-6 col-md-4 my-3">
+                <ProdVilla Villa={Villa} />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </>
   )
 }

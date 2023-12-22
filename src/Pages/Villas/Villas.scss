@@ -1,3 +1,21 @@
 .container-fluid{
     background-color: #f8f5f5;
 }
+.vill{
+    background-image: url(../../assets/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: #fff;
+    border: 0;
+}
+.Villa{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 310px;
+    padding: 10rem;
+    // top: 11rem;
+    position: relative;
+    font-weight: bolder;
+    font-size: 6rem !important;
+}

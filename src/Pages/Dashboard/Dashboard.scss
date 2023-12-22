@@ -1,0 +1,21 @@
+.dash_icon{
+    font-size: 25px;
+    
+}
+.Form{
+    padding: 20px;
+    margin: auto;
+}
+.form-label{
+    text-align: left;
+}
+input:focus {
+    box-shadow: none !important;
+    border: 1px solid #cbcbcf !important;
+}
+.notAdmin{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

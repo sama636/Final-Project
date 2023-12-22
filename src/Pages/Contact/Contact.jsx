@@ -20,7 +20,7 @@ export default function Contact() {
       <div className="body">
         <h2 className="contant">Contact Us</h2>
         <p className="para">
-          We offer unique properties suitable for any kind of comfort
+          We offer unique properties suitable htmlFor any kind of comfort
         </p>
         <div className="container pt-5">
           <div className="row flex-column flex-md-row align-items-stretch">
@@ -52,7 +52,7 @@ export default function Contact() {
                 <div  className="text-start">
                   <div className="mb-3">
                     <label
-                      for="exampleFormControlInput1"
+                      htmlFor="exampleFormControlInput1"
                       className="form-label "
                     >
                       Email
@@ -66,7 +66,7 @@ export default function Contact() {
                   </div>
                   <div className="mb-3 text-start">
                     <label
-                      for="exampleFormControlTextarea1"
+                      htmlFor="exampleFormControlTextarea1"
                       className="form-label "
                     >
                       Message
@@ -79,7 +79,7 @@ export default function Contact() {
                     ></textarea>
                   </div>
                 </div>
-                <button type="button" class="btnn btn-dark">
+                <button type="button" className="btnn btn-dark">
                   Submit
                 </button>
               </div>
