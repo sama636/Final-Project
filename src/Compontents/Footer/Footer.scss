@@ -7,16 +7,22 @@
     padding: 3rem !important;
     margin: auto;
     left: 5rem;
-    p:hover{
+    a:hover{
         color: #77c720 ;
         
         // text-decoration: underline;
     }
-    p{
+    a{
         // padding: 5px;
         transition: 0.3s;
+        color:#fff;
+        text-decoration: none;
+        font-size: 12px;
     }
 }
 .paara{
     color: rgb(70, 69, 69);
+}
+.fonts{
+    font-size: 13px;
 }

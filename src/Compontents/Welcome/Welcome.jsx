@@ -7,8 +7,8 @@ export default function Welcome() {
     <div >
     <div className='cardd col-3 w-100 d-flex justify-content-center'>
         <div className='bgg'>
-        <p>DISCOVER YOUR PLACE TO LIVE</p>
-        <h1 className='p-2'>GET STARTED IN FEW CLICKS​</h1>
+        <p className='head'>Discover Your Place To Live</p>
+        <h1 className='header p-2'>Get started in few clicks</h1>
         </div>
       </div>
     </div>

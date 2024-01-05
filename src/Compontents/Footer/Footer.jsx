@@ -7,32 +7,32 @@ export default function Footer() {
       <div className="row  footer ">
         <div className="col-md-3">
         <h3 className="color pb-1">Brokery Finder</h3>
-        <h6>
+        <h6 className="fonts">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis
           et sem sed sollicitudin. Donec non odio neque. Aliquam hendrerit
           sollicitudin purus, quis rutrum mi accumsan nec.
         </h6>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 d-flex align-items-center flex-column">
             <h4 className="color pb-1">Discover</h4>
-            <p>Cairo</p>
-            <p>Giza</p>
-            <p>Qina</p>
-            <p>Alexandria</p>
+            <a href="#">Cairo</a>
+            <a href="#">Giza</a>
+            <a href="#">Qina</a>
+            <a href="#">Alexandria</a>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 d-flex align-items-center flex-column">
             <h4 className="color pb-1">Lifestyle</h4>
-            <p>ِApartments</p>
-            <p>Villas</p>
-            <p>Single Family Home</p>
-            <p>Loft</p>
+            <a href="#">ِApartments</a>
+            <a href="#">Villas</a>
+            <a href="#">Single Family Home</a>
+            <a href="#">Loft</a>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 d-flex align-items-center flex-column">
             <h4 className="color pb-1">Help</h4>
-            <p>Search</p>
-            <p>About</p>
-            <p>Contact</p>
-            <p>Blog</p>
+            <a href="#">Search</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
         </div>
         <div className="row ">
         <h4 className="paara">© Brokery Finder - All rights reserved</h4>

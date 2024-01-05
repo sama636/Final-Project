@@ -14,7 +14,8 @@ export default function Brokery(brokers) {
         <div className="card-body">
           <h2 className="card-titlee p-2">{brokers.brokers.Name}</h2>
           <h5 className="card-title p-2">{brokers.brokers.Governorate}</h5>
-          <a className="card-titlea p-2">{brokers.brokers.Mobile}</a>
+          <a  href="https://wa.me/2001222786841" className="card-titlea p-2">{brokers.brokers.Mobile}</a>
+          {/* <a href="https://wa.me/2001222786841">01222786841</a> */}
           <p className="card-title p-2">{brokers.brokers.title}</p>
         </div>
       </div>
