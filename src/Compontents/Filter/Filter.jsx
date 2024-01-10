@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Filter.scss";
 import axios from "axios";
 
-export default function Filter(setFilterQuery) {
+export default function Filter({setFilterQuery}) {
   const [category, setCategory] = useState([]);
   const [filterValues, setFilterValues] = useState({
     q: "",
