@@ -1,7 +1,5 @@
 import React from "react";
 import "./Side.scss";
-import Villas from "../../Villas/Villas";
-import Apsrtments from "../../Apartments/Apartments";
 import { Link } from "react-router-dom";
 
 export default function Side() {
@@ -14,19 +12,17 @@ export default function Side() {
         <hr className="text-dark" />
         <div className="list-group list-group-flush">
           <Link to={"/Dashboard"} className="list-group-item list-group-item-action  py-2">
-            <span className="fs-5">Apartments</span>
-            {/* <Link  to={<Apsrtments/>}>Apartments</Link> */}
+            <span className="fs-5">Add new product</span>
           </Link>
+          <Link to={"/Dashboard"} className="list-group-item list-group-item-action  py-2">
+            <span className="fs-5">Edit new product</span>
+          </Link>
+          <Link>
           <a className="list-group-item list-group-item-action  py-2">
-            <span className="fs-5">Villas</span>
-            {/* <Link to={<Villas/>}>Villas</Link> */}
+            <span className="fs-5">Log Out</span>
           </a>
-          <Link
-            to={"/Dashboard/users"}
-            className="list-group-item list-group-item-action  py-2"
-          >
-            <span className="fs-5">Users</span>
           </Link>
+          
         </div>
       </div>
     </>

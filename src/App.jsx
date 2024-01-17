@@ -1,4 +1,3 @@
-// App.jsx
 import "./App.scss";
 import Home from "./Pages/HomePage/Home";
 import About from "./Pages/AboutUs/About";
@@ -14,7 +13,7 @@ import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import { $Current_Width, $Side_Menu_Index } from "./store";
 import Dashboard from "./Pages/Dashboard/Dashboard";
-import UsersData from "./Pages/Dashboard/HomeDash/Users";
+// import UsersData from "./Pages/Dashboard/HomeDash/Users";
 
 function App() {
   const [CurrentWidth, setCurrentWidth] = useRecoilState($Current_Width);
@@ -39,7 +38,7 @@ function App() {
           <Route path="/apar" element={<Apsrtments />} />
           <Route path="/villa" element={<Villas />} />
           <Route path="/Dashboard" element={<Dashboard />}/>
-          <Route path="/Dashboard/users" element={<UsersData />} />
+          {/* <Route path="/Dashboard/users" element={<UsersData />} /> */}
           <Route path="/agent" element={<Agents />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={"404 Page"} />

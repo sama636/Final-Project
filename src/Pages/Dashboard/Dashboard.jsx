@@ -73,8 +73,17 @@ export default function HomeDash() {
                     className="form-label pt-2 d-block"
                   >
                     Product category :
+                    
                   </label>
-                  <input
+                  <select className="d-flex justify-content-start" onKeyUp={(e) => {
+                      setCategory(e.target.value);
+                    }}>
+                      <option>Choose Category</option>
+                      <option>Apartment</option>
+                      <option>Villa</option>
+                      
+                    </select>
+                  {/* <input
                     type="text"
                     className="form-control"
                     id="exampleInputEmail1"
@@ -83,7 +92,7 @@ export default function HomeDash() {
                     onKeyUp={(e) => {
                       setCategory(e.target.value);
                     }}
-                  />
+                  /> */}
                 </div>
                 <div className="w-100">
                   <div>
@@ -144,7 +153,7 @@ export default function HomeDash() {
                 </button>
               </div>
             </form>
-            <div className="productsTable mb-5">
+            {/* <div className="productsTable mb-5">
               <h2 className="text-start p-2">Products Table</h2>
               <table className="table table-bordered table-striped table-hover rounded-2">
                 <thead>
@@ -176,7 +185,7 @@ export default function HomeDash() {
                   </tr>
                 </tbody>
               </table>
-            </div>
+            </div> */}
           </div>
         </>
       ) : (

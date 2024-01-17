@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Filter.scss";
 import axios from "axios";
 
-export default function Filter({setFilterQuery}) {
+export default function Filter({ setFilterQuery }) {
   const [category, setCategory] = useState([]);
   const [filterValues, setFilterValues] = useState({
     q: "",
@@ -19,22 +19,22 @@ export default function Filter({setFilterQuery}) {
   function changeFilter(e) {
     setFilterValues({ ...filterValues, [e.target.name]: e.target.value });
   }
-  function handeForm(e){
+  function handeForm(e) {
     e.preventDefault();
     let queryArr = [];
-    for(let key in filterValues){
-      if(filterValues[key] != ""){
-        queryArr.push(`${key}=${filterValues[key]}`)
+    for (let key in filterValues) {
+      if (filterValues[key] != "") {
+        queryArr.push(`${key}=${filterValues[key]}`);
       }
     }
-    const filterArr = queryArr.join("&")
-    setFilterQuery(filterArr)
+    const filterArr = queryArr.join("&");
+    setFilterQuery(filterArr);
   }
   return (
     <div className="container d-flex justify-content-center align-items-center">
       <form onSubmit={handeForm} className="d-flex p-3 gap-3 ">
         <input
-        name="q"
+          name="q"
           value={filterValues.q}
           onChange={changeFilter}
           className="w-100"
@@ -42,7 +42,7 @@ export default function Filter({setFilterQuery}) {
           placeholder="search..."
         />
         <select
-        name="category"
+          name="category"
           value={filterValues.category}
           onChange={changeFilter}
           className="w-100"
@@ -53,7 +53,7 @@ export default function Filter({setFilterQuery}) {
           })}
         </select>
         <input
-        name="price_gte"
+          name="price_gte"
           value={filterValues.price_gte}
           onChange={changeFilter}
           className="w-100"
@@ -61,14 +61,16 @@ export default function Filter({setFilterQuery}) {
           placeholder="Min price"
         />
         <input
-        name="price_lte"
+          name="price_lte"
           value={filterValues.price_lte}
           onChange={changeFilter}
           className="w-100"
           type="text"
           placeholder="Max price"
         />
-        <button type="submit" className="btn btn-primary fs-4">Filter</button>
+        <button type="submit" className="btn btn-primary fs-4">
+          Filter
+        </button>
       </form>
     </div>
   );

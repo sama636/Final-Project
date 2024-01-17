@@ -18,7 +18,7 @@ export default function Featured() {
             </div>
             <div className='col-3 card2'>
                 <img src={Feau} className='fea'/>
-                <p className='fs-3 p-2'>Single family homes for sale</p>
+                <p className='fs-3 p-2'>Single family homes</p>
             </div>
             <div className='col-3 card2'>
                 <img src={Villa} className='fea'/>

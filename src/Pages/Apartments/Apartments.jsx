@@ -7,7 +7,6 @@ import ProdCard from "../../Compontents/ProdCard/ProdCard";
 export default function Apsrtments() {
   const [prod, setProd] = useState([]);
   const [filterQuery, setFilterQuery] = useState("");
-  // console.log("http://localhost:3004/products?" + filterQuery)
   useEffect(() => {
     axios("http://localhost:3004/products?" + filterQuery).then((data) =>
       setProd(data.data)
@@ -20,7 +19,7 @@ export default function Apsrtments() {
           <p>Apartments</p>
         </div>
       </div>
-      <div className="containe">
+      <div className="container">
         <Filter setFilterQuery={setFilterQuery} />
       </div>
       <div className="container my-5">

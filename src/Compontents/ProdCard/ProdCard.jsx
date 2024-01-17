@@ -26,7 +26,6 @@ export default function ProdCard(product) {
             {" "}
             <CiHeart />
           </span>
-          
         </div>
       </div>
     </div>
