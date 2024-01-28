@@ -19,20 +19,28 @@ export default function Apsrtments() {
           <p>Apartments</p>
         </div>
       </div>
-      <div className="container">
-        <Filter setFilterQuery={setFilterQuery} />
-      </div>
-      <div className="container my-5">
-        <div className="row">
-          {prod.map((product, index) => {
-            return (
-              <div key={index} className="Apart col-12 col-sm-6 col-md-4 my-3">
-                <ProdCard product={product} />
-              </div>
-            );
-          })}
+      <div className="row">
+        <div className="col-3 my-5">
+          <Filter setFilterQuery={setFilterQuery} />
+        </div>
+        <div className="col-9">
+          <div className="my-5">
+            <div className="row">
+              {prod.map((product, index) => {
+                return (
+                  <div
+                    key={index}
+                    className=" col-12  my-3"
+                  >
+                    <ProdCard product={product} />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
+    
     </>
   );
 }

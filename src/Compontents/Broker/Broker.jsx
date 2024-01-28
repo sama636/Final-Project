@@ -28,9 +28,9 @@ export default function Broker() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               imperdiet ullamcorper nisl, sed venenatis...
             </p>
-            <Link to="/profile" className="profile">
-              View Profile...
-            </Link>{" "}
+            <Link to={"/profile"}>
+              <span>View Profile...</span>
+            </Link>
           </div>
           <div className="col-3 card1">
             <img src={Brok} className="brokers" />
@@ -40,9 +40,9 @@ export default function Broker() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               imperdiet ullamcorper nisl, sed venenatis...
             </p>
-            <a href="#" className="profile">
-              View Profile...
-            </a>{" "}
+            <Link to={"/Profilbroker"}>
+              <span>View Profile...</span>
+            </Link>
           </div>
           <div className="col-3 card1">
             <img src={broker} className="brokers" />
@@ -52,9 +52,12 @@ export default function Broker() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               imperdiet ullamcorper nisl, sed venenatis...
             </p>
-            <a href="#" className="profile">
+            <Link to={"/ProfileBroker"}>
+              <span>View Profile...</span>
+            </Link>
+            {/* <a href="#" className="profile">
               View Profile...
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

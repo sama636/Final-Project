@@ -1,47 +1,40 @@
-import React from "react";
-import "./Modal.scss";
+import React from 'react'
 import { useRecoilState } from "recoil";
-import { $Auth_Data, $Modal_Index } from "../../store";
+import { $Auth_Data} from "../../store";
+import "./Log.scss"
+import HelloLog from "../../assets/HelloLog.jpeg";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import loginSchema from "../../schemas/loginSchema";
 import axios from "axios";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 
+export default function Log() {
+    const [authData, setAuthData] = useRecoilState($Auth_Data);
+    console.log(authData);
 
-export default function Model() {
-  const [authData, setAuthData] = useRecoilState($Auth_Data);
-  console.log(authData);
-
-  function LoginAccount(data) {
-    axios(
-      `http://localhost:3004/users?email=${data.email}&password=${data.password}`
-    ).then((data) => {
-      if (data.data.length > 0) {
-        localStorage.setItem("loggedInUser", JSON.stringify(data.data[0]));
-        setAuthData({
-          isAuth: true,
-          userId: data.data[0].id,
+    function LoginAccount(data) {
+        axios(
+          `http://localhost:3004/users?email=${data.email}&password=${data.password}`
+        ).then((data) => {
+          if (data.data.length > 0) {
+            localStorage.setItem("loggedInUser", JSON.stringify(data.data[0]));
+            setAuthData({
+              isAuth: true,
+              userId: data.data[0].id,
+            });
+          }
         });
       }
-    });
-  }
-  const [modalIndex, setModalIndex] = useRecoilState($Modal_Index);
   return (
-    <div
-      className="col-12 "
-      id="modal"
-      onClick={() => {
-        setModalIndex(false);
-      }}
-    >
-      <div
-        className="content col-6"
-        onClick={(e) => {
-          e.stopPropagation();
-        }}
-      >
-        <Formik
+    <>
+     <div className="container pt-5 my-3">
+        <div className="row flex-column flex-md-row align-items-stretch">
+          <div className="col-10 col-md-6">
+            <div className="h-100">
+            <img className="Photo rounded-1 h-80" src={HelloLog} />
+            </div>
+          </div>
+          <div className="col-10 col-md-6">
+          <Formik
           initialValues={{
             email: "",
             password: "",
@@ -51,7 +44,7 @@ export default function Model() {
             LoginAccount(values);
           }}
         >
-          <Form className="user__form my-5">
+          <Form className="user__form ">
             <div className="d-flex col-12 flex-column gap-2 mb-3 ">
               <label htmlFor="">Email:</label>
               <Field
@@ -86,9 +79,11 @@ export default function Model() {
             </div>
           </Form>
         </Formik>
+            </div>{" "}
+        </div>
       </div>
-      {/* <ToastContainer /> */}
-    </div>
-    
-  );
+        
+     
+    </>
+  )
 }

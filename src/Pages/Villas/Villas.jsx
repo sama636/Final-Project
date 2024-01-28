@@ -47,19 +47,28 @@ export default function Villas() {
         </div>
         
       </div>
-      <div className="container my-5">
-      <Filter setFilterQuery={setFilterQuery} />
-
-        <div className="row">
-          {prodVilla.map((Villa, index) => {
-            return (
-              <div key={index} className="villal col-12 col-sm-6 col-md-4 my-3">
-                <ProdVilla Villa={Villa} />
-              </div>
-            );
-          })}
+      <div className="row">
+        <div className="col-3 my-5">
+          <Filter setFilterQuery={setFilterQuery} />
+        </div>
+        <div className="col-9">
+          <div className="my-5">
+            <div className="row">
+              {prodVilla.map((Villa, index) => {
+                return (
+                  <div
+                    key={index}
+                    className=" col-12  my-3"
+                  >
+                    <ProdVilla Villa={Villa} />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
+      
     </>
   );
 }

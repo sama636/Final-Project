@@ -1,26 +1,25 @@
 import React from "react";
-import "./Profile.scss";
-import agent from "../../assets/agent1.jpg";
+import broker from "../../assets/broker.jpg";
 import { IoStarSharp } from "react-icons/io5";
 import { RiStarSLine } from "react-icons/ri";
 
-export default function Profile() {
+export default function ProfileBroker() {
   return (
     <>
       <div className="container p-5">
         <div className="row pt-3">
           <div className="col-3">
-            <img className="size_image rounded" src={agent} />
+            <img src={broker} className="size_image rounded" />
           </div>
           <div className="col-9 p-4 ">
-            <h3>Mohamed Ali</h3>
+            <h3>Nour Ahmed</h3>
             <div className="d-flex justify-content-center p-2 gap-1">
-              <p className="color_para fs-5">4</p>
+              <p className="color_para fs-5">3</p>
               <div className="stars fs-5">
                 <IoStarSharp />
                 <IoStarSharp />
                 <IoStarSharp />
-                <IoStarSharp />
+                <RiStarSLine />
                 <RiStarSLine />
               </div>
             </div>
@@ -28,14 +27,14 @@ export default function Profile() {
               <p>
                 Company Agent at{" "}
                 <a href="#" className="company_color">
-                  Realty Properties Inc.
+                Smart Houses Inc.
                 </a>
               </p>
             </div>
             <div className="d-flex  justify-content-center">
               <span className="span">Tax Number:</span>
-              <a className="color_para" href="https://wa.me/2001222786841">
-                01222786841
+              <a className="color_para" href="https://wa.me/2001002454261">
+              01002454261
               </a>
             </div>
             <div className="d-flex justify-content-center">
@@ -44,7 +43,7 @@ export default function Profile() {
             </div>
             <div className="d-flex justify-content-center">
               <span className="span">Service Areas:</span>
-              <p className="color_para">Nasr City, City New Cairo, El Mokatam, Madinty, El Maadi</p>
+              <p className="color_para">6 October, El Shaikh Zayed , El Ahram, Hdaiek October, Lowell</p>
             </div>
                   <p className="color_par">Property Management, Consulting, Buyer's Agent, Listing Agent, Relocation</p>
             </div>

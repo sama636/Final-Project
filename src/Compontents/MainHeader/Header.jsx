@@ -9,12 +9,12 @@ import { $Current_Width, $Side_Menu_Index } from "../../store";
 import Login from "../Login/Login";
 import Sign from "../Sign/Sign";
 
-const loginData = JSON.parse(localStorage.getItem("loggedInUser"));
-if (loginData) {
-  console.log("yes");
-} else {
-  console.log("no");
-}
+// const loginData = JSON.parse(localStorage.getItem("loggedInUser"));
+// if (loginData) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
 export default function Header() {
   const headerLinks = [
     { path: "/", name: "Home" },
@@ -27,6 +27,10 @@ export default function Header() {
   const [sideMenuIndex, setSideMenuIndex] = useRecoilState($Side_Menu_Index);
   const [Current_Width] = useRecoilState($Current_Width);
   const [CurrentIndex, setCurrentIndex] = useState(0);
+  // const history = useHistory();
+  // function LogOut(){
+  //   localStorage.clear();
+  // }
   return (
     <header className="col-12" id="MainHeader">
       {Current_Width <= 767 && sideMenuIndex == true ? <SideMenu /> : null}
@@ -36,7 +40,6 @@ export default function Header() {
           className="icon"
           onClick={(e) => {
             e.stopPropagation();
-
             sideMenuIndex == true
               ? setSideMenuIndex(false)
               : setSideMenuIndex(true);
@@ -60,14 +63,35 @@ export default function Header() {
           })}
         </nav>
       )}
-      {loginData ? (
+      <div className="loog">
+          <Login />
+          <Sign />
+        </div>
+      {/* {loginData ? (
         <span className="text-dark">Hello , {loginData.name}</span>
       ) : (
         <div className="loog">
           <Login />
           <Sign />
         </div>
-      )}
+        
+      )} */}
+      {/* <div className="dropdown">
+        <button
+          className="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+        </button>
+        <ul className="dropdown-menu">
+          <li>
+            <a className="dropdown-item" href="#" onClick={LogOut}>
+            LogOut
+            </a>
+          </li>
+        </ul>
+      </div> */}
     </header>
   );
 }

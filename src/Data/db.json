@@ -5,126 +5,180 @@
       "description": "About Book A Unit Starting From 149M² In The Axis 6 October",
       "price": "3,620,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-the-axis/properties%20for%20sale%20in%20the%20axis.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-the-axis/properties%20for%20sale%20in%20the%20axis.jpg",
+      "rooms": "3",
+      "bathroom": "2",
+      "meter": "149M²"
     },
     {
       "id": 2,
       "description": "Own Your Unit Now in Stone Residence Cairo With Spacial Prices and Spaces Starting From 177 Meters",
       "price": "2,500,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Stone-Residence-Compound-3/%D8%A7%D9%84%D9%81%D9%84%D9%84-%D9%81%D9%8A-%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF-%D8%B3%D8%AA%D9%88%D9%86-%D8%B1%D9%8A%D8%B2%D9%8A%D8%AF%D9%86%D8%B3.png"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Stone-Residence-Compound-3/%D8%A7%D9%84%D9%81%D9%84%D9%84-%D9%81%D9%8A-%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF-%D8%B3%D8%AA%D9%88%D9%86-%D8%B1%D9%8A%D8%B2%D9%8A%D8%AF%D9%86%D8%B3.png",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "177M²"
     },
     {
       "id": 3,
       "description": "Chalets for sale in Laguna Bay 139m²",
       "price": "3,044,000.00 ",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-laguna-bay/Villa%20in%20Laguna%20Bay%20by%20Capital%20Developments.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-laguna-bay/Villa%20in%20Laguna%20Bay%20by%20Capital%20Developments.jpg",
+      "rooms": "4",
+      "bathroom": "2",
+      "meter": "139m²"
     },
     {
       "id": 4,
       "description": "Duplex For Sale 310m In Vye Compound With Payment Facilities",
       "price": "6,152,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-vye-sodic-compound/Apartments-For-Sale-In-VYE.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-vye-sodic-compound/Apartments-For-Sale-In-VYE.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "310m"
     },
     {
       "id": 5,
       "description": "Book Your Unit Quickly in Mivida starting from 170m²",
       "price": "5,900,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properity-in-mivida/Mivida%20Buildings.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properity-in-mivida/Mivida%20Buildings.jpg",
+      "rooms": "3",
+      "bathroom": "2",
+      "meter": "170m²"
     },
     {
       "id": 6,
       "description": "properties with 3 bedrooms for sale in Al Burouj",
       "price": "3,900,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Apartment-for-sale-in-alburouj-compound/%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%A6%D8%B1%20%D9%81%D9%8A%20%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF%20%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AC%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Apartment-for-sale-in-alburouj-compound/%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%A6%D8%B1%20%D9%81%D9%8A%20%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF%20%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D8%AC%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82.jpg",
+      "rooms": "4",
+      "bathroom": "1",
+      "meter": "170m²"
     },
     {
       "id": 7,
       "description": "About With Installments up to 8 Years, buy Twin House in Vye Sodic Compound, with Space of ​​229 meters",
       "price": "5,737,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properities-in-vye-sodic/Duplexe%20for%20sale%20in%20VYE%20Sodic.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properities-in-vye-sodic/Duplexe%20for%20sale%20in%20VYE%20Sodic.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "​​229m²"
     },
     {
       "id": 8,
       "description": " Apartment With An Area of 156m² For Book in Degla Towers Nasr City",
       "price": "1,350,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/degla-towers-from-156-meter/%D8%A7%D9%84%D8%B4%D9%82%D9%82%20%D9%81%D9%8A%20%D8%AF%D8%AC%D9%84%D8%A9%20%D8%AA%D8%A7%D9%88%D8%B1%D8%B2.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/degla-towers-from-156-meter/%D8%A7%D9%84%D8%B4%D9%82%D9%82%20%D9%81%D9%8A%20%D8%AF%D8%AC%D9%84%D8%A9%20%D8%AA%D8%A7%D9%88%D8%B1%D8%B2.jpg",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "156m²"
     },
     {
       "id": 9,
       "description": "Apartment For Sale in IL Mondo 215m",
       "price": "1,419,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/property-for-sale-in-il-mondo/Apartments%20for%20sale%20in%20il%20mondo.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/property-for-sale-in-il-mondo/Apartments%20for%20sale%20in%20il%20mondo.jpg",
+      "rooms": "2",
+      "bathroom": "1",
+      "meter": "215m"
     },
     {
       "id": 10,
       "description": "Get Your Unit in Taj City New Cairo With an Area of 165 meters",
       "price": "2,871,222.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-in-taj-city/Apartments%20for%20sale%20in%20Taj%20City.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-in-taj-city/Apartments%20for%20sale%20in%20Taj%20City.jpg",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "165m²"
     },
     {
       "id": 11,
       "description": "Apartment for sale 70m La Capital East New Administrative Capital with payment facilities",
       "price": "1,680,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/la-capital-compound/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%86%D9%8A%20%D9%81%D9%8A%20%D9%84%D8%A7%20%D9%83%D8%A7%D8%A8%D9%8A%D8%AA%D8%A7%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D9%87%20%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A%D9%87%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9(1).png"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/la-capital-compound/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%86%D9%8A%20%D9%81%D9%8A%20%D9%84%D8%A7%20%D9%83%D8%A7%D8%A8%D9%8A%D8%AA%D8%A7%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D9%87%20%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A%D9%87%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9(1).png",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "70m"
     },
     {
       "id": 12,
       "description": "Properties for sale in Green Avenue 180m²",
       "price": "1,980,000.00 ",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-for-sale-in-Anakaji-compound/Anakaji%20New%20Capital.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-for-sale-in-Anakaji-compound/Anakaji%20New%20Capital.jpg",
+      "rooms": "2",
+      "bathroom": "2",
+      "meter": "180m²"
     },
     {
       "id": 13,
       "description": "Apartments for sale in Kenz",
       "price": "2,509,500.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/kenz-6-october-3/information-about-Kenz-Compound.png"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/kenz-6-october-3/information-about-Kenz-Compound.png",
+      "rooms": "3",
+      "bathroom": "2",
+      "meter": "177M²"
     },
     {
       "id": 14,
       "description": "A Hotel Apartment 85 m inside Park Point Mall New Capital",
       "price": "4,250,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/storage/listings/SNB0jVU8liecXLWv.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/SNB0jVU8liecXLWv.jpg",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "85m"
     },
     {
       "id": 15,
       "description": "About The Cheapest 180 m² Apartment for Sale in Menorca New Capital",
       "price": "1,640,000.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properity-in-menorca/apartments%20for%20sale%20in%20Menorca.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properity-in-menorca/apartments%20for%20sale%20in%20Menorca.jpg",
+      "rooms": "4",
+      "bathroom": "1",
+      "meter": "180m²"
     },
     {
       "id": 16,
       "description": "Special offer of 210m² apartments for sale in Porto New Cairo with distinctive location",
       "price": "2,650,000.00 ",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Apartments-for-sale-in-Porto-New-Cairo-1/Apartmenst-for-sale-in-Porto-new-cairo-project.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Apartments-for-sale-in-Porto-New-Cairo-1/Apartmenst-for-sale-in-Porto-new-cairo-project.jpg",
+      "rooms": "3",
+      "bathroom": "2",
+      "meter": "210m²"
     },
     {
       "id": 17,
       "description": "The Cheapest 92 M Apartment For Sale With Garden In Palm Parks",
       "price": "2,507,074.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-palm-parks/palm%20parks%20palm%20hills.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-palm-parks/palm%20parks%20palm%20hills.jpg",
+      "rooms": "3",
+      "bathroom": "1",
+      "meter": "92M"
     },
     {
       "id": 18,
       "description": "Own An Apartment In Fifth Square Al Marasem With 10% Installment Up To 8 Years.",
       "price": "5,493,640.00",
       "category": "Apartments",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Properties-for-sale-in-fifth-square/property%20for%20sale%20in%20fifth%20square%20new%20cairo.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Properties-for-sale-in-fifth-square/property%20for%20sale%20in%20fifth%20square%20new%20cairo.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "210m²"
     }
   ],
   "ProductVillas": [
@@ -133,148 +187,195 @@
       "description": "Get a Villa in Telal Sokhna Reasort 360m²",
       "price": "6,500,000.00 ",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/property-for-sale-in-telal/Lakes%20in%20Telal%20Resort%20Ain%20Sokhna.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/property-for-sale-in-telal/Lakes%20in%20Telal%20Resort%20Ain%20Sokhna.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "360m²"
     },
     {
       "id": 2,
       "description": "A villa with 347 meters, live in Marsa Baghush North Coast Resort",
       "price": "25,596,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/Rd4jht3KN5kvd40A.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/Rd4jht3KN5kvd40A.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "347m²"
     },
     {
       "id": 3,
       "description": "Details About Sale Of a Villa Starting From 284m²​​​​​​​ in Rivers El Shaikh Zayed Compound",
       "price": "11,928,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/MUULRr5jnsbyhUdN.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/MUULRr5jnsbyhUdN.jpg",
+      "rooms": "4",
+      "bathroom": "2",
+      "meter": "284m²"
     },
     {
       "id": 4,
       "description": "Villa With Immediate Delivery And 850 M In Katameya Dunes New Cairo",
       "price": "18,000,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-katameya-dunes/Katameya%20Dunes%20Project.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-katameya-dunes/Katameya%20Dunes%20Project.jpg",
+      "rooms": "6",
+      "bathroom": "4",
+      "meter": "850m²"
     },
     {
       "id": 5,
       "description": "Own An Apartment Inside Stone Park Compound",
       "price": "9,000,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-stone-park-compound/townhouses%20for%20sale%20in%20stone%20park.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-stone-park-compound/townhouses%20for%20sale%20in%20stone%20park.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "360m²"
     },
     {
       "id": 6,
       "description": "Villa For Sale In Marina Heights 270m²",
       "price": "3,000,000.00 ",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/UsT0ofT5pXjDaYHY.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/UsT0ofT5pXjDaYHY.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "270m²"
     },
     {
       "id": 7,
       "description": "325m attractive Villa for sale in Hills Of One Compound with imaginary price",
       "price": "13,000,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/PDzwnvSRMrBikYG9.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/PDzwnvSRMrBikYG9.jpg",
+      "rooms": "6",
+      "bathroom": "3",
+      "meter": "325m²"
     },
     {
       "id": 8,
       "description": "Own An Villa In A Strategic Location Mountain View Hyde Park New Cairo",
       "price": "6,475,344.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Mountain-View-Hyde-Park-compound/Apartments%20For%20sale%20in%20Mountain%20View%20Hyde%20Park%20compound.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/Mountain-View-Hyde-Park-compound/Apartments%20For%20sale%20in%20Mountain%20View%20Hyde%20Park%20compound.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "450m²"
     },
     {
       "id": 9,
       "description": "Properties for Sale in The Marq",
       "price": "8,900,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-the-marq/Buildings%20in%20The%20MarQ.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-the-marq/Buildings%20in%20The%20MarQ.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "360m²"
     },
     {
       "id": 10,
       "description": "Properties For Sale in Mountain View ICity",
       "price": "5,249,644.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/mountain-view-icity-2/Icity-new-Cairo-American-Style.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/mountain-view-icity-2/Icity-new-Cairo-American-Style.jpg",
+      "rooms": "5",
+      "bathroom": "2",
+      "meter": "340m²"
     },
     {
       "id": 11,
       "description": "407m² semi-finished villa for sale in new cairo at Emaar Mivida Compound",
       "price": "11,000,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/mivida-compound-8/mivida-compound.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/mivida-compound-8/mivida-compound.jpg",
+      "rooms": "6",
+      "bathroom": "3",
+      "meter": "407m²"
     },
     {
       "id": 12,
       "description": "Hurry Up To Buy An Villa in Mivida Egypt 347m²",
       "price": "12,729,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-mivida/Andalusian-Town-House-in-Mivida.jpg"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/properties-for-sale-in-mivida/Andalusian-Town-House-in-Mivida.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "347m²"
     },
     {
       "id": 13,
       "description": "Villa In Vidala Village With Facilities Up To 9 Years",
       "price": "5,976,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/BOz5VE5zTIEpOKwQ.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/BOz5VE5zTIEpOKwQ.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "360m²"
     },
     {
       "id": 14,
       "description": "Details Of Selling A Villa With ​​372m In Korpenta Project",
       "price": "4,250,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/4sh3V22PSzV9vy6z.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/4sh3V22PSzV9vy6z.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "372m²"
     },
     {
       "id": 15,
       "description": "Details About Sale Of An Villa Starting From 365m²​​​​​​​ in Capital Heights 1 New Capital",
       "price": "5,475,000.00 ",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/XyaovQc9nEbYD0WK.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/XyaovQc9nEbYD0WK.jpg",
+      "rooms": "6",
+      "bathroom": "4",
+      "meter": "365m²"
     },
     {
       "id": 16,
       "description": "Own a villa in IL Mondo New Capital at the cheapest price",
       "price": "5,100,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/AOQXahDxzrSgEVKw.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/AOQXahDxzrSgEVKw.jpg",
+      "rooms": "5",
+      "bathroom": "3",
+      "meter": "360m²"
     },
     {
       "id": 17,
       "description": "Buy a Villa in De Joya Compound With Space of 325m²",
       "price": "5,200,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/storage/listings/58rYUKZFEX8vSwB6.jpg"
+      "thumbnail": "https://realestate.eg/storage/listings/58rYUKZFEX8vSwB6.jpg",
+      "rooms": "4",
+      "bathroom": "3",
+      "meter": "325m²"
     },
     {
       "id": 18,
       "description": "Villas For Sale in SODIC EAST by SODIC with spaces starting from 270 m²",
       "price": "7,295,000.00",
       "category": "Villa",
-      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-for-sale-in-sodic-east/%D8%B3%D9%88%D8%AF%D9%8A%D9%83%20%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%20%D9%88%20%D8%AC%D9%85%D8%A7%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B7%D9%82%20%D8%A8%D9%87%D8%A7.png"
+      "thumbnail": "https://realestate.eg/ckfinder/userfiles/images/apartment-for-sale-in-sodic-east/%D8%B3%D9%88%D8%AF%D9%8A%D9%83%20%D8%A7%D9%84%D9%8A%D8%B3%D8%AA%20%D9%88%20%D8%AC%D9%85%D8%A7%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%B7%D9%82%20%D8%A8%D9%87%D8%A7.png",
+      "rooms": "5",
+      "bathroom": "2",
+      "meter": "270m²"
     }
   ],
   "users": [
     {
       "email": "snasser636@gmail.com",
-      "name": "Sama",
-      "role": "Admin",
+      "name": "sama",
+      "role": "Member",
       "password": "123456",
-      "id": 1
+      "id": 2
     },
     {
       "email": "noor222@gmail.com",
       "name": "noor",
       "role": "Member",
-      "password": "147852",
-      "id": 2
-    },
-    {
-      "email": "dwdw@swdw.dw",
-      "name": "Sama",
-      "role": "Member",
-      "password": "dwdw@swdw.dw",
+      "password": "123456",
       "id": 3
     }
   ],
@@ -340,7 +441,7 @@
       ]
     }
   ],
-  "Categories":[
+  "Categories": [
     "Apartments",
     "Villas"
   ]

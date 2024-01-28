@@ -1,36 +1,31 @@
 import React from "react";
-import { useRecoilState } from "recoil";
-import { $Mod_Index } from "../../store";
-import { ErrorMessage, Field, Form, Formik } from "formik";
+import "./Reg.scss";
 import registerSchema from "../../schemas/registerSchema";
+import HelloLog from "../../assets/HelloLog.jpeg";
+import { ErrorMessage, Field, Form, Formik } from "formik";
 import axios from "axios";
 
-export default function Modal() {
-  function RegisterAccount(data) {
-    delete data.confirmpassword;
-    console.log(data);
-    axios.post("http://localhost:3004/users", data, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-  }
-  const [modalIndex, setModalIndex] = useRecoilState($Mod_Index);
+export default function Reg() {
+    function RegisterAccount(data) {
+        delete data.confirmpassword;
+        console.log(data);
+        axios.post("http://localhost:3004/users", data, {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
   return (
-    <div
-      className="col-12"
-      id="modal"
-      onClick={() => {
-        setModalIndex(false);
-      }}
-    >
-      <div
-        className="content col-6"
-        onClick={(e) => {
-          e.stopPropagation();
-        }}
-      >
-        <Formik
+    <>
+      <div className="container pt-5 my-4">
+        <div className="row flex-column flex-md-row align-items-stretch">
+          <div className="col-10 col-md-6">
+            <div className="">
+            <img className="con rounded-1 h-80" src={HelloLog} />
+            </div>
+          </div>
+          <div className="col-10 col-md-6">
+          <Formik
           initialValues={{
             email: "",
             name: "",
@@ -44,8 +39,8 @@ export default function Modal() {
             RegisterAccount(values);
           }}
         >
-          <Form className="user__form my-5">
-            <div className="d-flex col-12 flex-column gap-2 mb-3 ">
+          <Form className="user__form ">
+            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
               <label htmlFor="">Full Name:</label>
               <Field
                 className="inp"
@@ -57,7 +52,7 @@ export default function Modal() {
             <span className="text-danger">
               <ErrorMessage name="name" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-3 ">
+            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
               <label htmlFor="">Email:</label>
               <Field
                 className="inp"
@@ -69,7 +64,7 @@ export default function Modal() {
             <span className="text-danger">
               <ErrorMessage name="email" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-3 ">
+            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
               <label htmlFor="">Password:</label>
               <Field
                 className="inp"
@@ -81,7 +76,7 @@ export default function Modal() {
             <span className="text-danger">
               <ErrorMessage name="password" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-3 ">
+            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
               <label htmlFor="">Confirm Password:</label>
               <Field
                 className="inp"
@@ -98,7 +93,9 @@ export default function Modal() {
             </div>
           </Form>
         </Formik>
+            </div>{" "}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

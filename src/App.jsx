@@ -7,6 +7,11 @@ import Agents from "./Pages/Agents/Agents";
 import Contact from "./Pages/Contact/Contact";
 import Header from "./Compontents/MainHeader/Header";
 import Footer from "./Compontents/Footer/Footer";
+import Profile from "./Compontents/Profile1/Profile";
+import ProfileBroker from "./Compontents/ProfileBroker/ProfileBroker";
+import Reg from "./Compontents/Reg/Reg";
+import Profilbroker from "./Compontents/Profilbroker/Profilbroker";
+import Log from "./Compontents/Log/Log";
 import { ToastContainer } from "react-toastify";
 
 import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
@@ -39,6 +44,11 @@ function App() {
           <Route path="/villa" element={<Villas />} />
           <Route path="/Dashboard" element={<Dashboard />}/>
           {/* <Route path="/Dashboard/users" element={<UsersData />} /> */}
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/Profilbroker" element={<Profilbroker />} />
+          <Route path="/ProfileBroker" element={<ProfileBroker />} />
+          <Route path="/Reg" element={<Reg />} />
+          <Route path="/Log" element={<Log />} />
           <Route path="/agent" element={<Agents />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={"404 Page"} />
