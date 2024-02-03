@@ -3,7 +3,6 @@ import "./Villas.scss";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/index";
 import Filter from "../../Compontents/Filter/Filter";
-
 import ProdVilla from "../../Compontents/ProdVilla/ProdVilla";
 import axios from "axios";
 
@@ -45,21 +44,17 @@ export default function Villas() {
         <div className="Villa">
           <p>Villas</p>
         </div>
-        
       </div>
-      <div className="row">
-        <div className="col-3 my-5">
+      <div className="row g-0 w-100">
+        <div className="col-md-12 col-lg-3 my-5">
           <Filter setFilterQuery={setFilterQuery} />
         </div>
-        <div className="col-9">
+        <div className="col-lg-9 col-md-12 d-flex  justify-content-center col-sm-12">
           <div className="my-5">
             <div className="row">
               {prodVilla.map((Villa, index) => {
                 return (
-                  <div
-                    key={index}
-                    className=" col-12  my-3"
-                  >
+                  <div key={index} className=" col-12  my-3">
                     <ProdVilla Villa={Villa} />
                   </div>
                 );
@@ -68,7 +63,6 @@ export default function Villas() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }

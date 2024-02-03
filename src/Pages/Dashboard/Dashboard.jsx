@@ -8,12 +8,14 @@ import Side from "./Side/Side";
 export default function HomeDash() {
   const [name, setName] = useState();
   const [category, setCategory] = useState();
+console.log(category);
   const [price, setPrice] = useState();
   const [url, setUrl] = useState();
+  const [description, setDescription] = useState();
   const addNewProduct = async (obj) => {
-    const docRef = await addDoc(collection(db, "products"), obj);
     console.log(obj);
-    console.log("Document written with ID: ", docRef.id);
+    const docRef = await addDoc(collection(db, "products"), obj);
+    // console.log("Document written with ID: ", docRef.id);
   };
   const loginData = JSON.parse(localStorage.getItem("loggedInUser"));
   console.log(loginData);
@@ -75,7 +77,7 @@ export default function HomeDash() {
                     Product category :
                     
                   </label>
-                  <select className="d-flex justify-content-start" onKeyUp={(e) => {
+                  <select className="d-flex justify-content-start" onChange={(e) => {
                       setCategory(e.target.value);
                     }}>
                       <option>Choose Category</option>
@@ -83,16 +85,6 @@ export default function HomeDash() {
                       <option>Villa</option>
                       
                     </select>
-                  {/* <input
-                    type="text"
-                    className="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                    placeholder="Product category"
-                    onKeyUp={(e) => {
-                      setCategory(e.target.value);
-                    }}
-                  /> */}
                 </div>
                 <div className="w-100">
                   <div>
@@ -108,6 +100,9 @@ export default function HomeDash() {
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                       placeholder="Product description "
+                      onKeyUp={(e) => {
+                        setDescription(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
@@ -144,6 +139,7 @@ export default function HomeDash() {
                       price: price,
                       url: url,
                       category: category,
+                      description: description
                     };
                     e.preventDefault();
                     addNewProduct(obj);
@@ -153,39 +149,6 @@ export default function HomeDash() {
                 </button>
               </div>
             </form>
-            {/* <div className="productsTable mb-5">
-              <h2 className="text-start p-2">Products Table</h2>
-              <table className="table table-bordered table-striped table-hover rounded-2">
-                <thead>
-                  <tr>
-                    <th>Product Name</th>
-                    <th>Product Name</th>
-                    <th>Product Name</th>
-                    <th>Product Name</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                  </tr>
-                  <tr>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                  </tr>
-                  <tr>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                    <td>test</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div> */}
           </div>
         </>
       ) : (

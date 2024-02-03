@@ -2,6 +2,7 @@ import React from 'react'
 import "./SideMenu.scss"
 import { Link } from 'react-router-dom'
 import plogo from "../../assets/plogo.jpeg"
+import LogOutButton from "../LogOutButton/LogOutButton"
 export default function SideMenu() {
   return (
     <div className='SideMenu' onClick={(e)=>{e.stopPropagation()}}>
@@ -12,6 +13,7 @@ export default function SideMenu() {
       <Link to="/villa">Villa</Link>
       <Link to="/agent">Our Agents</Link>
       <Link to="/contact">Contact</Link>
+      <LogOutButton/>
     </div>
   )
 }

@@ -4,30 +4,29 @@ import About from "./Pages/AboutUs/About";
 import Apsrtments from "./Pages/Apartments/Apartments";
 import Villas from "./Pages/Villas/Villas";
 import Agents from "./Pages/Agents/Agents";
+import CheckOut from "./Compontents/CheckOut/CheckOut";
 import Contact from "./Pages/Contact/Contact";
 import Header from "./Compontents/MainHeader/Header";
 import Footer from "./Compontents/Footer/Footer";
+import IsLoggedIn from "./Compontents/ProtectedRoute/IsLoggedIn";
 import Profile from "./Compontents/Profile1/Profile";
 import ProfileBroker from "./Compontents/ProfileBroker/ProfileBroker";
 import Reg from "./Compontents/Reg/Reg";
 import Profilbroker from "./Compontents/Profilbroker/Profilbroker";
 import Log from "./Compontents/Log/Log";
+import NotLoggedIn from "./Compontents/ProtectedRoute/NotLoggedIn";
 import { ToastContainer } from "react-toastify";
-
 import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import { $Current_Width, $Side_Menu_Index } from "./store";
 import Dashboard from "./Pages/Dashboard/Dashboard";
-// import UsersData from "./Pages/Dashboard/HomeDash/Users";
 
 function App() {
   const [CurrentWidth, setCurrentWidth] = useRecoilState($Current_Width);
   const [sideMenuIndex, setSideMenuIndex] = useRecoilState($Side_Menu_Index);
-
   window.addEventListener("resize", () => {
     setCurrentWidth(window.innerWidth);
   });
-
   return (
     <div
       className="App"
@@ -38,19 +37,19 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/apar" element={<Apsrtments />} />
-          <Route path="/villa" element={<Villas />} />
+          <Route path="/" element={<IsLoggedIn><Home /></IsLoggedIn>} />
+          <Route path="/about" element={<IsLoggedIn><About /></IsLoggedIn>} />
+          <Route path="/apar" element={<IsLoggedIn><Apsrtments /></IsLoggedIn>} />
+          <Route path="/villa" element={<IsLoggedIn><Villas /></IsLoggedIn>} />
           <Route path="/Dashboard" element={<Dashboard />}/>
-          {/* <Route path="/Dashboard/users" element={<UsersData />} /> */}
           <Route path="/profile" element={<Profile />} />
+          <Route path="/checkOut" element={<CheckOut />} />
           <Route path="/Profilbroker" element={<Profilbroker />} />
           <Route path="/ProfileBroker" element={<ProfileBroker />} />
-          <Route path="/Reg" element={<Reg />} />
-          <Route path="/Log" element={<Log />} />
-          <Route path="/agent" element={<Agents />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Reg" element={<NotLoggedIn><Reg /></NotLoggedIn>} />
+          <Route path="/Log" element={<NotLoggedIn><Log /></NotLoggedIn>} />
+          <Route path="/agent" element={<IsLoggedIn><Agents /></IsLoggedIn>} />
+          <Route path="/contact" element={<IsLoggedIn><Contact /></IsLoggedIn>} />
           <Route path="*" element={"404 Page"} />
         </Routes>
         <Footer />
@@ -59,5 +58,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

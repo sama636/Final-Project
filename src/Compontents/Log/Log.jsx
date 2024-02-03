@@ -30,7 +30,7 @@ export default function Log() {
         <div className="row flex-column flex-md-row align-items-stretch">
           <div className="col-10 col-md-6">
             <div className="h-100">
-            <img className="Photo rounded-1 h-80" src={HelloLog} />
+            <img className="Photo rounded-1 h-100" src={HelloLog} />
             </div>
           </div>
           <div className="col-10 col-md-6">
@@ -44,7 +44,7 @@ export default function Log() {
             LoginAccount(values);
           }}
         >
-          <Form className="user__form ">
+          <Form className="user__form d-flex flex-column justify-content-center h-100">
             <div className="d-flex col-12 flex-column gap-2 mb-3 ">
               <label htmlFor="">Email:</label>
               <Field

@@ -5,12 +5,15 @@ import "./Contact.scss";
 
 export default function Contact() {
   function sendEmail(e) {
+    console.log("aaaaaaaaaaaaaaaaaaa");
     e.preventDefault();
     emailjs.sendForm("service_wfcdeb2", "template_rwktro5", e.target).then(
       (result) => {
+        console.log("sss");
         console.log(result.text);
       },
       (error) => {
+        console.log("sss");
         console.log(error.text);
       }
     );
@@ -29,7 +32,7 @@ export default function Contact() {
                 <img className="cont h-100" src={cont} />
               </div>
             </div>
-            <div className="form col-10 col-md-6" onSubmit={sendEmail}>
+            <form className="form col-10 col-md-6" onSubmit={sendEmail}>
               <div className="row h-100">
                 <div  className="text-start">
                   <label className="p-1">First Name</label>
@@ -79,11 +82,11 @@ export default function Contact() {
                     ></textarea>
                   </div>
                 </div>
-                <button type="button" className="btnn btn-dark">
+                <button  type="submit" className="btn btn-dark">
                   Submit
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>

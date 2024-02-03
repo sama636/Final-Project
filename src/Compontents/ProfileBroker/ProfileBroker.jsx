@@ -8,10 +8,10 @@ export default function ProfileBroker() {
     <>
       <div className="container p-5">
         <div className="row pt-3">
-          <div className="col-3">
+          <div className="col-lg-5 col-md-5 col-sm-12">
             <img src={broker} className="size_image rounded" />
           </div>
-          <div className="col-9 p-4 ">
+          <div className="col-lg-7 col-md-7 col-sm-12 p-4">
             <h3>Nour Ahmed</h3>
             <div className="d-flex justify-content-center p-2 gap-1">
               <p className="color_para fs-5">3</p>

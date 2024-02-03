@@ -20,8 +20,8 @@ export default function Reg() {
       <div className="container pt-5 my-4">
         <div className="row flex-column flex-md-row align-items-stretch">
           <div className="col-10 col-md-6">
-            <div className="">
-            <img className="con rounded-1 h-80" src={HelloLog} />
+            <div className="h-100">
+            <img className="con rounded-1 h-100" src={HelloLog} />
             </div>
           </div>
           <div className="col-10 col-md-6">
@@ -39,8 +39,8 @@ export default function Reg() {
             RegisterAccount(values);
           }}
         >
-          <Form className="user__form ">
-            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
+          <Form className="user__form h-100">
+            <div className="d-flex col-12 flex-column gap-2 ">
               <label htmlFor="">Full Name:</label>
               <Field
                 className="inp"
@@ -52,7 +52,7 @@ export default function Reg() {
             <span className="text-danger">
               <ErrorMessage name="name" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
+            <div className="d-flex col-12 flex-column gap-2 ">
               <label htmlFor="">Email:</label>
               <Field
                 className="inp"
@@ -64,7 +64,7 @@ export default function Reg() {
             <span className="text-danger">
               <ErrorMessage name="email" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
+            <div className="d-flex col-12 flex-column gap-2 ">
               <label htmlFor="">Password:</label>
               <Field
                 className="inp"
@@ -76,7 +76,7 @@ export default function Reg() {
             <span className="text-danger">
               <ErrorMessage name="password" />
             </span>
-            <div className="d-flex col-12 flex-column gap-2 mb-1 ">
+            <div className="d-flex col-12 flex-column gap-2">
               <label htmlFor="">Confirm Password:</label>
               <Field
                 className="inp"

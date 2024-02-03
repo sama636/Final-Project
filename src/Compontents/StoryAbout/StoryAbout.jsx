@@ -6,7 +6,7 @@ export default function StoryAbout() {
       <div className="container ">
         <h1 className="story">Our Story</h1>
         <div className="row ">
-        <div className="col-12 p-5">
+        <div className="col-12 p-2">
             <p className="p-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris

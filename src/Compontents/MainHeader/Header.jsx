@@ -5,17 +5,14 @@ import { Link } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import plogo from "../../assets/plogo.jpeg";
 import { FaBars } from "react-icons/fa";
-import { $Current_Width, $Side_Menu_Index } from "../../store";
+import { $Auth_Data, $Current_Width, $Side_Menu_Index } from "../../store";
 import Login from "../Login/Login";
 import Sign from "../Sign/Sign";
+import LogOutButton from "../LogOutButton/LogOutButton";
 
-// const loginData = JSON.parse(localStorage.getItem("loggedInUser"));
-// if (loginData) {
-//   console.log("yes");
-// } else {
-//   console.log("no");
-// }
 export default function Header() {
+  const [authData] = useRecoilState($Auth_Data);
+
   const headerLinks = [
     { path: "/", name: "Home" },
     { path: "/about", name: "About Us" },
@@ -27,10 +24,7 @@ export default function Header() {
   const [sideMenuIndex, setSideMenuIndex] = useRecoilState($Side_Menu_Index);
   const [Current_Width] = useRecoilState($Current_Width);
   const [CurrentIndex, setCurrentIndex] = useState(0);
-  // const history = useHistory();
-  // function LogOut(){
-  //   localStorage.clear();
-  // }
+
   return (
     <header className="col-12" id="MainHeader">
       {Current_Width <= 767 && sideMenuIndex == true ? <SideMenu /> : null}
@@ -63,35 +57,14 @@ export default function Header() {
           })}
         </nav>
       )}
-      <div className="loog">
-          <Login />
-          <Sign />
-        </div>
-      {/* {loginData ? (
-        <span className="text-dark">Hello , {loginData.name}</span>
+    <span className="d-none d-md-block">{authData.isAuth ? (
+        <LogOutButton />
       ) : (
         <div className="loog">
           <Login />
           <Sign />
         </div>
-        
-      )} */}
-      {/* <div className="dropdown">
-        <button
-          className="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-        </button>
-        <ul className="dropdown-menu">
-          <li>
-            <a className="dropdown-item" href="#" onClick={LogOut}>
-            LogOut
-            </a>
-          </li>
-        </ul>
-      </div> */}
+      )}</span>
     </header>
   );
 }

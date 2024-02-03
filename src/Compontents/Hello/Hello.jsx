@@ -17,7 +17,7 @@ export default function Hello() {
           </div>
           <div className="col-12 col-md-6 p-5">
             <div >
-              <h4>
+              <h4 className="pb-3">
                 <span>
                   <FaCheck />
                 </span>
@@ -30,7 +30,7 @@ export default function Hello() {
               </p>
             </div>
             <div>
-              <h4>
+              <h4 className="py-3">
                 <span>
                   <FaCheck />
                 </span>
@@ -43,7 +43,7 @@ export default function Hello() {
               </p>
             </div>
             <div>
-              <h4>
+              <h4 className="py-3">
                 <span>
                   <FaCheck />
                 </span>

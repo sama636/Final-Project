@@ -1,4 +1,5 @@
 import { atom } from "recoil";
+const oldData = localStorage.getItem('loggedInUser')
 
 export const $Current_Width = atom({
     key : "$Current_Width",
@@ -19,8 +20,8 @@ export const $Mod_Index = atom({
 export const $Auth_Data = atom({
     key : "$Auth_Data",
     default: {
-        isAuth: false,
-        userId: null
+        isAuth: oldData ? true: false,
+        userId: oldData ? oldData.id : null 
     }
 })
 

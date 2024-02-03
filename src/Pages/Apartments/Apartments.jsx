@@ -19,11 +19,11 @@ export default function Apsrtments() {
           <p>Apartments</p>
         </div>
       </div>
-      <div className="row">
-        <div className="col-3 my-5">
+      <div className="row g-0 w-100">
+        <div className="col-md-12 col-lg-3 my-5">
           <Filter setFilterQuery={setFilterQuery} />
         </div>
-        <div className="col-9">
+        <div className="col-lg-9 col-md-12 d-flex  justify-content-center col-sm-12 ">
           <div className="my-5">
             <div className="row">
               {prod.map((product, index) => {

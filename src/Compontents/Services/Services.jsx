@@ -16,7 +16,7 @@ export default function Services() {
       </div>
       <div className="serv d-flex justify-content-center">
         <div className="One">
-          <div className="row p-3 space">
+          <div className="row g-3 p-3 space">
             <div className=" col-md-3 ser py-4">
               <div className="icon">
                 <FaPeopleGroup />
@@ -48,7 +48,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="row p-3 pb-5 space">
+          <div className="row p-3 g-3 pb-5 space">
             <div className="col-md-3 ser py-4">
               <div className="icon">
                 <PiHandshakeBold />
