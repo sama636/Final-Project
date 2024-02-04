@@ -4,8 +4,10 @@ import registerSchema from "../../schemas/registerSchema";
 import HelloLog from "../../assets/HelloLog.jpeg";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import axios from "axios";
+import { useNavigate } from "react-router";
 
 export default function Reg() {
+    const navigate = useNavigate("");
     function RegisterAccount(data) {
         delete data.confirmpassword;
         console.log(data);
@@ -13,7 +15,9 @@ export default function Reg() {
           headers: {
             "Content-Type": "application/json",
           },
+          
         });
+        navigate("/Log")
       }
   return (
     <>
@@ -89,7 +93,7 @@ export default function Reg() {
               <ErrorMessage name="confirmpassword " />
             </span>
             <div className="d-flex justify-content-end">
-              <input type="submit" />
+              <input type="submit"/>
             </div>
           </Form>
         </Formik>

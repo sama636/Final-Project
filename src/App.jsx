@@ -41,7 +41,7 @@ function App() {
           <Route path="/about" element={<IsLoggedIn><About /></IsLoggedIn>} />
           <Route path="/apar" element={<IsLoggedIn><Apsrtments /></IsLoggedIn>} />
           <Route path="/villa" element={<IsLoggedIn><Villas /></IsLoggedIn>} />
-          <Route path="/Dashboard" element={<Dashboard />}/>
+          <Route path="/Dashboard" element={<IsLoggedIn><Dashboard /></IsLoggedIn>}/>
           <Route path="/profile" element={<Profile />} />
           <Route path="/checkOut" element={<CheckOut />} />
           <Route path="/Profilbroker" element={<Profilbroker />} />

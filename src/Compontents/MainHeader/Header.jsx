@@ -12,7 +12,6 @@ import LogOutButton from "../LogOutButton/LogOutButton";
 
 export default function Header() {
   const [authData] = useRecoilState($Auth_Data);
-
   const headerLinks = [
     { path: "/", name: "Home" },
     { path: "/about", name: "About Us" },
@@ -20,6 +19,7 @@ export default function Header() {
     { path: "/villa", name: "Villas" },
     { path: "/agent", name: "Our Agents" },
     { path: "/contact", name: "Contact" },
+    // { path: "/dashboard", name: "Add Product" },
   ];
   const [sideMenuIndex, setSideMenuIndex] = useRecoilState($Side_Menu_Index);
   const [Current_Width] = useRecoilState($Current_Width);

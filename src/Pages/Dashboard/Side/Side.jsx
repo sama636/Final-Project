@@ -1,5 +1,6 @@
 import React from "react";
 import "./Side.scss";
+import LogOutButton from "../../../Compontents/LogOutButton/LogOutButton"
 import { Link } from "react-router-dom";
 
 export default function Side() {
@@ -17,10 +18,8 @@ export default function Side() {
           <Link to={"/Dashboard"} className="list-group-item list-group-item-action  py-2">
             <span className="fs-5">Edit new product</span>
           </Link>
-          <Link>
-          <a className="list-group-item list-group-item-action  py-2">
-            <span className="fs-5">Log Out</span>
-          </a>
+          <Link className="p-3">
+            <LogOutButton/>
           </Link>
           
         </div>

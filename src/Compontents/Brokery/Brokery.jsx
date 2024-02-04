@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Brokery.scss";
 
 export default function Brokery(brokers) {
+  const [loading, setLoading] = useState();
   return (
     <>
       <div className="container">

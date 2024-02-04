@@ -7,7 +7,7 @@ export default function Sign() {
 <>
     <div className='log'>
       <Link to={"/Reg"}>
-      Sign Up
+      Sign Up 
       </Link>
     </div>
     </>
