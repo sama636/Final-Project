@@ -18,8 +18,6 @@ export default function SideMenu() {
       <Link to="/villa">Villa</Link>
       <Link to="/agent">Our Agents</Link>
       <Link to="/contact">Contact</Link>
-      <Link to="/dashboard">Add Product</Link>      
-
       <LogOutButton />
     </div>
   );

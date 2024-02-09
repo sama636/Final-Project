@@ -19,14 +19,27 @@ export default function Header() {
     { path: "/villa", name: "Villas" },
     { path: "/agent", name: "Our Agents" },
     { path: "/contact", name: "Contact" },
-    // { path: "/dashboard", name: "Add Product" },
+  ];
+  const headerLinK= [
+    { path: "/", name: "Home" },
+    { path: "/about", name: "About Us" },
+    { path: "/apar", name: "Apartments" },
+    { path: "/villa", name: "Villas" },
+    { path: "/agent", name: "Our Agents" },
+    { path: "/contact", name: "Contact" },
+    { path: "/Dashboard", name: "Dashboard" },
   ];
   const [sideMenuIndex, setSideMenuIndex] = useRecoilState($Side_Menu_Index);
   const [Current_Width] = useRecoilState($Current_Width);
   const [CurrentIndex, setCurrentIndex] = useState(0);
-
+  const loginData = JSON.parse(localStorage.getItem("loggedInUser"));
+  console.log(loginData);
+  
   return (
-    <header className="col-12" id="MainHeader">
+    <>
+    {loginData && loginData.role === "Member" ? (
+      <>
+      <header className="col-12" id="MainHeader">
       {Current_Width <= 767 && sideMenuIndex == true ? <SideMenu /> : null}
       <img className="appLogo" src={plogo} />
       {Current_Width <= 767 ? (
@@ -66,5 +79,52 @@ export default function Header() {
         </div>
       )}</span>
     </header>
+    </>
+    ) : (
+      <>
+      <header className="col-12" id="MainHeader">
+      {Current_Width <= 767 && sideMenuIndex == true ? <SideMenu /> : null}
+      <img className="appLogo" src={plogo} />
+      {Current_Width <= 767 ? (
+        <FaBars
+          className="icon"
+          onClick={(e) => {
+            e.stopPropagation();
+            sideMenuIndex == true
+              ? setSideMenuIndex(false)
+              : setSideMenuIndex(true);
+          }}
+        />
+      ) : (
+        <nav>
+          {headerLinK.map((link, index) => {
+            return (
+              <Link
+                onClick={() => {
+                  setCurrentIndex(index);
+                }}
+                key={index}
+                to={link.path}
+                className={CurrentIndex == index ? "activeLink" : null}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
+        </nav>
+      )}
+    <span className="d-none d-md-block">{authData.isAuth ? (
+        <LogOutButton />
+      ) : (
+        <div className="loog">
+          <Login />
+          <Sign />
+        </div>
+      )}</span>
+    </header>
+    </>
+    )}
+    
+    </>
   );
 }

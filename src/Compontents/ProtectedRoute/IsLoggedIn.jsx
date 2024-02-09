@@ -10,7 +10,6 @@ export default function IsLoggedIn({children}) {
         if(!authData.isAuth){
             navigate('/Log');
         }
-
     }, [authData])
   return (
     children

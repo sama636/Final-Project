@@ -48,7 +48,7 @@ export default function ProdVilla(Villa) {
               <button
                   type="button"
                   class="btnCall rounded-2 text-white px-4 py-2"
-                ><a className="text-white" href="https://wa.me/2001222786841">
+                ><a className="text-white" target="blank" href="https://wa.me/2001222786841">
                   Chat
                   </a></button>
             </div>

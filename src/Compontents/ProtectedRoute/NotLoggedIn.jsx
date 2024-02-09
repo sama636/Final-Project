@@ -10,9 +10,7 @@ export default function NotLoggedIn({children}) {
         if(authData.isAuth){
             navigate('/');
         }
-
     }, [authData])
-
   return (
     children
   )

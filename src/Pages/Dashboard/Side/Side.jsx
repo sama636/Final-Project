@@ -1,6 +1,7 @@
 import React from "react";
 import "./Side.scss";
 import LogOutButton from "../../../Compontents/LogOutButton/LogOutButton"
+import CheckOut from "../../../Compontents/CheckOut/CheckOut"
 import { Link } from "react-router-dom";
 
 export default function Side() {
@@ -15,12 +16,13 @@ export default function Side() {
           <Link to={"/Dashboard"} className="list-group-item list-group-item-action  py-2">
             <span className="fs-5">Add new product</span>
           </Link>
-          <Link to={"/Dashboard"} className="list-group-item list-group-item-action  py-2">
-            <span className="fs-5">Edit new product</span>
+          <Link to={"/checkOut"} className="">
+                   <button className='button__Log mt-4 px-4'>Checkout</button>
           </Link>
-          <Link className="p-3">
+          
+          {/* <Link className="p-3">
             <LogOutButton/>
-          </Link>
+          </Link> */}
           
         </div>
       </div>

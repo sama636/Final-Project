@@ -12,6 +12,7 @@ export default function Apsrtments() {
       setProd(data.data)
     );
   }, [filterQuery]);
+
   return (
     <>
       <div className="apar col-3 w-100 d-flex justify-content-center">

@@ -11,18 +11,17 @@ export default function Villas() {
   const [prodVilla, setProdVilla] = useState([]);
   const [filterQuery, setFilterQuery] = useState("");
   useEffect(() => {
-    axios("http://localhost:3004/productVillas?" + filterQuery).then((data) =>
+    axios("http://localhost:3004/ProductVillas?" + filterQuery).then((data) =>
       setProdVilla(data.data)
     );
   }, [filterQuery]);
-  console.log(products);
   const getAllProducts = async () => {
     let pros = [];
     const querySnapshot = await getDocs(collection(db, "products"));
     querySnapshot.forEach((doc) => {
       let obj = doc.data();
       obj.id = doc.id;
-      pros.push(obj);
+      pros.push( obj);
     });
     setProducts(pros);
   };

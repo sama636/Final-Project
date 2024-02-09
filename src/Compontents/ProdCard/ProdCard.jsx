@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProdCard.scss";
 import { IoBedOutline } from "react-icons/io5";
 import { FaShower } from "react-icons/fa";
 import { GiThermometerScale } from "react-icons/gi";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import products from "../../Data/db.json"
 
 
-export default function ProdCard(product) { 
+export default function ProdCard(product) {
   return (
     <>
       <div className="container col-10">
@@ -20,18 +21,25 @@ export default function ProdCard(product) {
                 alt="Card image cap"
               />{" "}
               {/* <Swiper
-      spaceBetween={100}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide><img className="card-img-top rounded-1 w-100vh "
-                src={product.product.thumbnail}
-                alt="Card image cap"/></SwiperSlide>
-      <SwiperSlide>slide 1</SwiperSlide>
-      <SwiperSlide>slide 2</SwiperSlide>
-      <SwiperSlide>slide 3</SwiperSlide>
-    </Swiper> */}
+                slidesPerView={1}
+                id='swiper'
+                pagination={{clickable:true}}
+                scrollbar={{draggable:true}}
+              >
+                {products.map((product)=>{
+                  return(<SwiperSlide id="Swip_Slide" key={product.id}>
+                    <div className="row">
+                      <div className="col-6">
+                      <img
+                className="card-img-top rounded-1  h-100"
+                src={product.product.images}
+                alt="Card image cap"
+              />{" "}
+                      </div>
+                    </div>
+                  </SwiperSlide>)
+                })}
+              </Swiper> */}
             </div>
             <div className="col-lg-7 col-md-7 col-sm-12 p-4 ">
               <div className="card-body">
@@ -65,9 +73,11 @@ export default function ProdCard(product) {
                 <button
                   type="button"
                   class="btnCall rounded-2 text-white px-4 py-2"
-                ><a className="text-white" href="https://wa.me/2001222786841">
-                  Chat
-                  </a></button>
+                >
+                  <a className="text-white" target="blank" href="https://wa.me/2001222786841">
+                    Chat
+                  </a>
+                </button>
               </div>
             </div>
           </div>
