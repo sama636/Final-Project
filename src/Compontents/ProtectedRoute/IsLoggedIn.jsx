@@ -8,7 +8,7 @@ export default function IsLoggedIn({children}) {
     const navigate = useNavigate();
     useEffect(()=>{
         if(!authData.isAuth){
-            navigate('/Log');
+            navigate('/Reg');
         }
     }, [authData])
   return (

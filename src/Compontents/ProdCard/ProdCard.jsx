@@ -3,9 +3,11 @@ import "./ProdCard.scss";
 import { IoBedOutline } from "react-icons/io5";
 import { FaShower } from "react-icons/fa";
 import { GiThermometerScale } from "react-icons/gi";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import products from "../../Data/db.json"
+import {Swiper,SwiperSlide} from "swiper/react"
+import "swiper/css"
+
+
+ import products from "../../Data/db.json"
 
 
 export default function ProdCard(product) {
@@ -20,14 +22,10 @@ export default function ProdCard(product) {
                 src={product.product.thumbnail}
                 alt="Card image cap"
               />{" "}
-              {/* <Swiper
-                slidesPerView={1}
-                id='swiper'
-                pagination={{clickable:true}}
-                scrollbar={{draggable:true}}
-              >
-                {products.map((product)=>{
-                  return(<SwiperSlide id="Swip_Slide" key={product.id}>
+               {/* <Swiper
+              slidesPerView={2}>
+                {products.map((product)=>(
+                  (<SwiperSlide id="swip_Slide" key={product.id}>
                     <div className="row">
                       <div className="col-6">
                       <img
@@ -37,9 +35,9 @@ export default function ProdCard(product) {
               />{" "}
                       </div>
                     </div>
-                  </SwiperSlide>)
-                })}
-              </Swiper> */}
+                  </SwiperSlide>
+                )))}
+              </Swiper>  */}
             </div>
             <div className="col-lg-7 col-md-7 col-sm-12 p-4 ">
               <div className="card-body">
