@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/final_project/static/css/main.c51ccd6b.css",
+    "main.js": "/final_project/static/js/main.0e1c7a7a.js",
+    "static/media/image.png": "/final_project/static/media/image.37439b87a3a575da81d7.png",
+    "static/media/abou.jpg": "/final_project/static/media/abou.fe43fd31d481d6fc6b1e.jpg",
+    "static/media/Villa.jpg": "/final_project/static/media/Villa.0147f16952dd64d38c70.jpg",
+    "static/media/broker.jpg": "/final_project/static/media/broker.10e453386559fd125caa.jpg",
+    "static/media/room.jpg": "/final_project/static/media/room.dd3c443c4103982c14fc.jpg",
+    "static/media/apt.jpg": "/final_project/static/media/apt.66a3eda4fd3e4d95ab93.jpg",
+    "static/media/slide.jpg": "/final_project/static/media/slide.977470c2838e3503b30f.jpg",
+    "static/media/welcome.jpg": "/final_project/static/media/welcome.d0d3618e77a4351be79f.jpg",
+    "static/media/home.jpg": "/final_project/static/media/home.3e8c8ed80144b3d4ae57.jpg",
+    "static/media/splide.jpg": "/final_project/static/media/splide.043046a5e541f0dde6d2.jpg",
+    "static/media/Feau.jpg": "/final_project/static/media/Feau.82f99d470e3ca855b3d1.jpg",
+    "static/media/Fea1.jpg": "/final_project/static/media/Fea1.876ae9fe8726512a3756.jpg",
+    "static/media/Apartment.jpg": "/final_project/static/media/Apartment.b36a6acd27da3eefd1d8.jpg",
+    "static/media/noor.jpg": "/final_project/static/media/noor.fb477c326b6fddb002ae.jpg",
+    "static/media/newyork.jpg": "/final_project/static/media/newyork.278175d6ca27bc786efa.jpg",
+    "static/media/customsbroker.jpg": "/final_project/static/media/customsbroker.20b2d2789022d5f70044.jpg",
+    "static/media/Brok.jpg": "/final_project/static/media/Brok.6af5e54fdc92c41631d4.jpg",
+    "static/media/cont.jpeg": "/final_project/static/media/cont.f3119821c416ef1b4ebf.jpeg",
+    "static/media/HelloLog.jpeg": "/final_project/static/media/HelloLog.55be8c2b1ffc40183f55.jpeg",
+    "static/media/plogo.jpeg": "/final_project/static/media/plogo.ced2ea6dbe7237d26ab4.jpeg",
+    "static/media/agent1.jpg": "/final_project/static/media/agent1.939c395e94ed2282f6eb.jpg",
+    "index.html": "/final_project/index.html",
+    "main.c51ccd6b.css.map": "/final_project/static/css/main.c51ccd6b.css.map",
+    "main.0e1c7a7a.js.map": "/final_project/static/js/main.0e1c7a7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c51ccd6b.css",
+    "static/js/main.0e1c7a7a.js"
+  ]
+}
