@@ -21,7 +21,7 @@ export default function Reg() {
   return (
     <>
       <div className="container pt-5 my-4">
-        <div className="row  g-4 flex-column flex-md-row align-items-stretch">
+        <div className="row  g-4 flex-column align-content-center flex-md-row align-items-stretch">
           <div className="col-10 col-md-6">
             <div className="h-100">
               <img className="con rounded-2 h-100" src={HelloLog} />

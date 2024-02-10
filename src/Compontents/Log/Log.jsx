@@ -27,7 +27,7 @@ export default function Log() {
   return (
     <>
       <div className="container pt-5 my-3">
-        <div className="row g-4 flex-column flex-md-row align-items-stretch">
+        <div className="row g-4 flex-column align-content-center flex-md-row align-items-stretch">
           <div className="col-10 col-md-6">
             <div className="h-100">
               <img className="Photo rounded-1 h-100" src={HelloLog} />

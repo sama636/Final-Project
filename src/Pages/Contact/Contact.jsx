@@ -26,7 +26,7 @@ export default function Contact() {
           We offer unique properties suitable htmlFor any kind of comfort
         </p>
         <div className="container pt-5">
-          <div className="row flex-column flex-md-row align-items-stretch">
+          <div className="row align-content-center g-4 flex-column flex-md-row align-items-stretch">
             <div className="col-10 col-md-6">
               <div className="h-100">
                 <img className="cont h-100" src={cont} />
