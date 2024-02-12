@@ -37,8 +37,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<IsLoggedIn><Home /></IsLoggedIn>} />
-          <Route path="/about" element={<IsLoggedIn><About /></IsLoggedIn>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/apar" element={<IsLoggedIn><Apsrtments /></IsLoggedIn>} />
           <Route path="/villa" element={<IsLoggedIn><Villas /></IsLoggedIn>} />
           <Route path="/Dashboard" element={<IsLoggedIn><Dashboard /></IsLoggedIn>}/>
@@ -50,7 +50,6 @@ function App() {
           <Route path="/Log" element={<NotLoggedIn><Log /></NotLoggedIn>} />
           <Route path="/agent" element={<IsLoggedIn><Agents /></IsLoggedIn>} />
           <Route path="/contact" element={<IsLoggedIn><Contact /></IsLoggedIn>} />
-          <Route path="*" element={"404 Page"} />
         </Routes>
         <Footer />
         <ToastContainer />

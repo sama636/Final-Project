@@ -22,17 +22,7 @@ export default function Log() {
           isAuth: true,
           userId: data.data[0].id,
         });
-        toast("🦄 Wow so easy!", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-          
-        });   
+       
       }
     });
   }
