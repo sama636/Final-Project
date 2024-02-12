@@ -20,9 +20,11 @@ export default function Filter({ setFilterQuery }) {
   }, []);
 
   function changeFilter(e) {
+
     setFilterValues({ ...filterValues, [e.target.name]: e.target.value });
   }
   function handeForm(e) {
+    console.log("ssss");
     e.preventDefault();
     let queryArr = [];
     for (let key in filterValues) {
@@ -56,16 +58,16 @@ export default function Filter({ setFilterQuery }) {
           placeholder="Search"
         />
         <input
-          name="bedrooms"
-          value={filterValues.bedrooms}
+          name="rooms"
+          value={filterValues.rooms}
           onChange={changeFilter}
           className="w-100"
           type="text"
           placeholder="Bedrooms"
         />
         <input
-          name="bathrooms"
-          value={filterValues.bathrooms}
+          name="bathroom"
+          value={filterValues.bathroom}
           onChange={changeFilter}
           className="w-100"
           type="text"

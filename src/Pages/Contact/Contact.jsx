@@ -5,15 +5,12 @@ import "./Contact.scss";
 
 export default function Contact() {
   function sendEmail(e) {
-    console.log("aaaaaaaaaaaaaaaaaaa");
     e.preventDefault();
     emailjs.sendForm("service_wfcdeb2", "template_rwktro5", e.target).then(
       (result) => {
-        console.log("sss");
         console.log(result.text);
       },
       (error) => {
-        console.log("sss");
         console.log(error.text);
       }
     );

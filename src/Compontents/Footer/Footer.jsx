@@ -4,7 +4,8 @@ import "./Footer.scss";
 export default function Footer() {
   return (
     <>
-      <div className="row  footer ">
+    
+      <div className="row footer ">
         <div className="col-md-3">
         <h3 className="color py-2">Brokery Finder</h3>
         <h6 className="fonts">

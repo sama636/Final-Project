@@ -30,7 +30,7 @@ export default function Apsrtments() {
               {prod.map((product, index) => {
                 return (
                   <div
-                    key={index}
+                    key={index +''+product.id}
                     className=" col-12  my-3"
                   >
                     <ProdCard product={product} />
